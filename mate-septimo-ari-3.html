@@ -1,0 +1,266 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="./assets/css/indexstyles.css">
+  <link rel="stylesheet" href="./assets/css/matematicas.css">
+        <title>CREA</title>
+</head>
+
+<body>
+
+        <header>
+                <div class="logo">
+                        <a href="index.html">
+                                <img src="./images/logo.png" alt="logo" width="50" height="50">
+                        </a>
+                </div>
+
+                <img id="hamburger-menu" class="hamburger-menu" src="./images/icon-menu.svg" alt="menu icon" width="25" height="25">
+                <nav id='navbar'>
+                        <div class="back"></div>
+                                <div class="front">
+                                        <div class="close-img-container">
+                                                <img id="close-btn" src="./images/icon-close-menu.svg" alt="close icon">
+                                        </div>
+                                <ul>
+                                        <li class="cursos-ul-container">
+                                                <button id="cursosbtn" class="submenu-btn">Cursos <img id="cursos-btn-arrow" src="./images/arrow-down.svg" alt="flecha abajo"></button>
+                                                <ul id="cursos-ul" class="cursos-ul">
+                                                        <li>
+                                                                <a href="matematicas.html">Matemáticas</a>
+                                                        </li>
+                                                      <!--  <li>
+                                                                <a href="ingles.html">Inglés</a>    
+                                                        </li>  -->
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <span class="submenu-btn">
+                                                                <a href="desafios.html">Desafíos</a>
+                                                </span>
+                                        </li>
+                                        <li class="herramientas-ul-container">
+                                                <button id="herramientasbtn" class="submenu-btn">Herramientas <img id="herramientas-btn-arrow" src="./images/arrow-down.svg" alt="arrow icon"></button>
+
+                                                <ul id="herramientas-ul" class="herramientas-ul">
+                                                        <li>
+                                                                <a href="flashcards.html">Flashcards</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="asistente.html">Asistente AI</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                </ul>
+                                </div>
+                </nav>
+        </header>
+
+  
+  <!-- 🧩 CONTENIDO -->
+
+<!-- Información del curso
+        Curso: Matemática
+        Grado: Septimo
+        Área: Aritmética
+        Tema: Teorema Fundamental de la Aritmética   -->
+
+        
+    <section class="curso-section">
+      <h2 class="curso-sesion">Geometría - Teorema Fundamental de la Aritmética  </h2>
+      <h3 class="curso-nombre">Curso: Matemáticas</h3>
+
+<!-- CONTENIDO TEÓRICO -->
+            
+      <div class="curso-contenido">
+              <p>En matemática, el teorema fundamental de la aritmética o teorema de factorización única dice que <strong>todo entero positivo mayor que 1</strong> es un <strong>número primo</strong> o bien un <strong>único producto de números primos</strong>.</p>
+              <p>En este sentido, en términos de números primos, todo entero tiene una factorización única salvo en el orden de los factores. Al ser el resultado de una multiplicación de números, el orden de los factores es irrelevante.</p>
+              <h4>Números compuestos</h4>
+              <p>Los números compuestos son los que tienen más de dos divisores, es decir, pueden expresarse como el producto de otros números menores. Esto significa que no son primos porque pueden descomponerse en factores distintos de 1 y de sí mismos.</p>
+              <h4>Factorización prima</h4>
+              <p>La factorización prima consiste en descomponer un número compuesto en el <strong>producto de números primos</strong>. Es decir, escribir un número como multiplicación de factores primos.</p>
+              <p><strong>Ejemplo</strong></p>
+              <h6>
+                      <li>36 = 2 × 2 × 3 × 3 = 2² × 3²</li>
+                      <li>60 = 2 × 2 × 3 × 5 = 2² × 3 × 5</li>
+      </h6>
+             
+      </div>
+            
+<!-- ACTUALIZAR CON LA INFORMACIÓN DE ESTA SECCIÓN-->
+  <!-- 🧠 Sección de cuestionario -->
+  <div class="cuestionario">
+          <div class="Nivel-1">
+                <h2>Practicando</h2> <!--Change font-size-->
+                <h3>NIVEL 1</h3>
+                <div class="pregunta" data-correcta="a">
+                        <p>1. El perímetro de una figura se obtiene:</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">Sumando todos sus lados</button></li>
+                                <li><button class="opcion" data-value="b">Multiplicando la base por la altura</button></li>
+                                <li><button class="opcion" data-value="c">Dividiendo entre dos la base y la altura</button></li>
+                                <li><button class="opcion" data-value="d">Sumando el área con el volumen</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="b">
+                        <p>2. ¿Qué unidad se usa para medir el área?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">cm</button></li>
+                                <li><button class="opcion" data-value="b">cm²</button></li>
+                                <li><button class="opcion" data-value="c">cm³</button></li>
+                                <li><button class="opcion" data-value="d">u</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="c">
+                        <p>3. Si un cuadrilátero tiene lados de 10u, 10u, 10u y 10u, su perímetro es:</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">20u</button></li>
+                                <li><button class="opcion" data-value="b">30u</button></li>
+                                <li><button class="opcion" data-value="c">40u</button></li>
+                                <li><button class="opcion" data-value="d">100u</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+          </div>
+          <div class="Nivel-2">
+                  <h3>NIVEL 2</h3>
+                  <div class="pregunta" data-correcta="b">
+                          <p>4. El área de un cuadrilátero se calcula:</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">Sumando todos los lados</button></li>
+                                  <li><button class="opcion" data-value="b">Multiplicando base × altura</button></li>
+                                  <li><button class="opcion" data-value="c">Dividiendo base × altura entre 2</button></li>
+                                  <li><button class="opcion" data-value="d">Restando perímetro – base</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="a">
+                          <p>5. El área de un triángulo con base 8u y altura 6u es:</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">24cm²</button></li>
+                                  <li><button class="opcion" data-value="b">48cm²</button></li>
+                                  <li><button class="opcion" data-value="c">14cm²</button></li>
+                                  <li><button class="opcion" data-value="d">28cm²</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="c">
+                          <p>6. El perímetro de un rectángulo de 12u de largo y 5u de ancho es:</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">17u</button></li>
+                                  <li><button class="opcion" data-value="b">24u</button></li>
+                                  <li><button class="opcion" data-value="c">34u</button></li>
+                                  <li><button class="opcion" data-value="d">60u</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="c">
+                            <p>7. Si un triángulo tiene base 10u y altura 5u, su área es:</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">10u²</button></li>
+                                    <li><button class="opcion" data-value="b">20u²</button></li>
+                                    <li><button class="opcion" data-value="c">25u²</button></li>
+                                    <li><button class="opcion" data-value="d">50u²</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+            </div>
+          <div class="Nivel-3">
+                    <h3>NIVEL 3</h3>
+                    <div class="pregunta" data-correcta="c">
+                            <p>8. ¿Cuál de las siguientes opciones describe mejor la diferencia entre perímetro y área?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">El perímetro mide el interior, el área mide el exterior</button></li>
+                                    <li><button class="opcion" data-value="b">El perímetro mide lo que ocupa, el área mide los lados</button></li>
+                                    <li><button class="opcion" data-value="c">El perímetro mide el contorno, el área mide la superficie</button></li>
+                                    <li><button class="opcion" data-value="d">Ambos miden lo mismo</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="c">
+                            <p>9. Si un cuadrilátero tiene base 15u y altura 4u, su área es:</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">30u²</button></li>
+                                    <li><button class="opcion" data-value="b">45u²</button></li>
+                                    <li><button class="opcion" data-value="c">60u²</button></li>
+                                    <li><button class="opcion" data-value="d">75u²</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="a">
+                            <p>10. El área de un triángulo con base 12u y altura 10u es:</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">60u²</button></li>
+                                    <li><button class="opcion" data-value="b">100u²</button></li>
+                                    <li><button class="opcion" data-value="c">120u²</button></li>
+                                    <li><button class="opcion" data-value="d">20u²</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="c">
+                              <p>11. Si un jardín tiene forma de cuadrilátero con lados 20u, 20u, 15u y 15u, su perímetro es:</p>
+                              <ul>
+                                      <li><button class="opcion" data-value="a">40u</button></li>
+                                      <li><button class="opcion" data-value="b">50u</button></li>
+                                      <li><button class="opcion" data-value="c">70u</button></li>
+                                      <li><button class="opcion" data-value="d">100u</button></li>
+                              </ul>
+                              <p class="feedback"></p>
+                      </div>
+                  <div class="pregunta" data-correcta="c">
+                                <p>12. Imagina que quieres cercar y luego cubrir con pasto un terreno rectangular de 18u de base y 7u de altura. ¿Cuánto miden el perímetro y el área respectivamente?</p>
+                                <ul>
+                                        <li><button class="opcion" data-value="a">25u y 126u²</button></li>
+                                        <li><button class="opcion" data-value="b">36u y 126u²</button></li>
+                                        <li><button class="opcion" data-value="c">50u y 126u²</button></li>
+                                        <li><button class="opcion" data-value="d">50u y 252u²</button></li>
+                                </ul>
+                                <p class="feedback"></p>
+                        </div>
+              </div>
+  </div>
+</section>
+
+
+
+        <!-- Footer -->
+        <footer>
+                <div class="footer-content">
+                        <div class="footer-section">
+                                <h3>CREA</h3>
+                                <p>Tu aprendizaje, nuestra pasión.</p>
+                                <ul>
+                                        <u><li><a href="https://creaorg.carrd.co/#">Conoce más</a></li>
+                                                </u>
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Cursos</h4>
+                                <ul>
+                                        <li><a href="matematicas.html">Matemáticas</a></li>
+                                    <!--    <li><a href="ingles.html">Inglés</a></li>  -->
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Recursos</h4>
+                                <ul>
+                                        <li><a href="desafios.html">Desafíos</a></li>
+                                        <li><a href="flashcards.html">Flashcards</a></li>
+                                        <li><a href="asistente.html">Asistente AI</a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="footer-bottom">
+                        <p>&copy; 2025 CREA. Todos los derechos reservados.</p>
+                </div>
+        </footer>
+
+
+                  <script src ="./main.js"></script>
+  <script src ="./matematicas.js"></script>
+          </body>
+  </html>

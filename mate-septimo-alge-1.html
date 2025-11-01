@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="./assets/css/indexstyles.css">
+  <link rel="stylesheet" href="./assets/css/matematicas.css">
+        <title>CREA</title>
+</head>
+
+<body>
+
+        <header>
+                <div class="logo">
+                        <a href="index.html">
+                                <img src="./images/logo.png" alt="logo" width="50" height="50">
+                        </a>
+                </div>
+
+                <img id="hamburger-menu" class="hamburger-menu" src="./images/icon-menu.svg" alt="menu icon" width="25" height="25">
+                <nav id='navbar'>
+                        <div class="back"></div>
+                                <div class="front">
+                                        <div class="close-img-container">
+                                                <img id="close-btn" src="./images/icon-close-menu.svg" alt="close icon">
+                                        </div>
+                                <ul>
+                                        <li class="cursos-ul-container">
+                                                <button id="cursosbtn" class="submenu-btn">Cursos <img id="cursos-btn-arrow" src="./images/arrow-down.svg" alt="flecha abajo"></button>
+                                                <ul id="cursos-ul" class="cursos-ul">
+                                                        <li>
+                                                                <a href="matematicas.html">Matemáticas</a>
+                                                        </li>
+                                                      <!--  <li>
+                                                                <a href="ingles.html">Inglés</a>    
+                                                        </li>  -->
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <span class="submenu-btn">
+                                                                <a href="desafios.html">Desafíos</a>
+                                                </span>
+                                        </li>
+                                        <li class="herramientas-ul-container">
+                                                <button id="herramientasbtn" class="submenu-btn">Herramientas <img id="herramientas-btn-arrow" src="./images/arrow-down.svg" alt="arrow icon"></button>
+
+                                                <ul id="herramientas-ul" class="herramientas-ul">
+                                                        <li>
+                                                                <a href="flashcards.html">Flashcards</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="asistente.html">Asistente AI</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                </ul>
+                                </div>
+                </nav>
+        </header>
+
+  
+  <!-- 🧩 CONTENIDO -->
+
+<!-- Información del curso
+        Curso: Matemática
+        Grado: Septimo
+        Área: Álgebra
+        Tema: Proporcionalidad y relaciones  -->
+
+        
+    <section class="curso-section">
+      <h2 class="curso-sesion">Álgebra - Proporcionalidad y relaciones</h2>
+      <h3 class="curso-nombre">Curso: Matemáticas</h3>
+
+<!-- CONTENIDO TEÓRICO -->
+            
+      <div class="curso-contenido">
+              <h4>¿Qué es la proporcionalidad directa?</h4>
+              <p>Dos cantidades tienen una relación de proporcionalidad directa cuando <strong>aumentan o disminuyen</strong> juntas en la misma proporción. Por ejemplo, si multiplicas un número por dos, el otro también se multiplica por dos, y si lo divides entre dos, el otro número también se divide entre dos.</p>
+              <p><strong>Ejemplo</strong></p>
+              <img src="images/proporcionalidad.png" alt="Potencias" class="imagen-medidas" width="200" height="auto">
+              <p>Aquí hay proporcionalidad directa, porque si duplicas la cantidad de gasolina (1 → 2), los kilómetros también se duplican (5 → 10). La razón entre la gasolina y los kilómetros es constante (5/1 = 10/2 = 5).</p>
+              <h4>¿Qué es una razón de cambio constante?</h4>
+              <p>Es el <strong>valor</strong> que siempre se repite cuando comparas cuánto aumenta o disminuye una cantidad respecto a otra. En el ejemplo de la gasolina: Por cada 1 litro de gasolina, los kilómetros que se pueden recorrer aumenta 5 kilómetros. Ese “5” es la razón de cambio constante.</p>
+              <p>Esto se puede representar con una ecuación lineal: K = 5 × G.</p>
+              <p>En este caso, "K" es el precio y "G" los litros de gasolina dsiponibles.</p>
+              <h4>¿Qué es una tasa?</h4>
+              
+              <img src="images/propiedades-potencia.png" alt="Propiedades" class="imagen-medidas" width="200" height="auto">
+             
+      </div>
+            
+<!-- ACTUALIZAR CON LA INFORMACIÓN DE ESTA SECCIÓN-->
+  <!-- 🧠 Sección de cuestionario -->
+  <div class="cuestionario">
+          <div class="Nivel-1">
+                <h2>Practicando</h2> <!--Change font-size-->
+                <h3>NIVEL 1</h3>
+                <div class="pregunta" data-correcta="a">
+                        <p>1. El perímetro de una figura se obtiene:</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">Sumando todos sus lados</button></li>
+                                <li><button class="opcion" data-value="b">Multiplicando la base por la altura</button></li>
+                                <li><button class="opcion" data-value="c">Dividiendo entre dos la base y la altura</button></li>
+                                <li><button class="opcion" data-value="d">Sumando el área con el volumen</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="b">
+                        <p>2. ¿Qué unidad se usa para medir el área?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">cm</button></li>
+                                <li><button class="opcion" data-value="b">cm²</button></li>
+                                <li><button class="opcion" data-value="c">cm³</button></li>
+                                <li><button class="opcion" data-value="d">u</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="c">
+                        <p>3. Si un cuadrilátero tiene lados de 10u, 10u, 10u y 10u, su perímetro es:</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">20u</button></li>
+                                <li><button class="opcion" data-value="b">30u</button></li>
+                                <li><button class="opcion" data-value="c">40u</button></li>
+                                <li><button class="opcion" data-value="d">100u</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+          </div>
+          <div class="Nivel-2">
+                  <h3>NIVEL 2</h3>
+                  <div class="pregunta" data-correcta="b">
+                          <p>4. El área de un cuadrilátero se calcula:</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">Sumando todos los lados</button></li>
+                                  <li><button class="opcion" data-value="b">Multiplicando base × altura</button></li>
+                                  <li><button class="opcion" data-value="c">Dividiendo base × altura entre 2</button></li>
+                                  <li><button class="opcion" data-value="d">Restando perímetro – base</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="a">
+                          <p>5. El área de un triángulo con base 8u y altura 6u es:</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">24cm²</button></li>
+                                  <li><button class="opcion" data-value="b">48cm²</button></li>
+                                  <li><button class="opcion" data-value="c">14cm²</button></li>
+                                  <li><button class="opcion" data-value="d">28cm²</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="c">
+                          <p>6. El perímetro de un rectángulo de 12u de largo y 5u de ancho es:</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">17u</button></li>
+                                  <li><button class="opcion" data-value="b">24u</button></li>
+                                  <li><button class="opcion" data-value="c">34u</button></li>
+                                  <li><button class="opcion" data-value="d">60u</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="c">
+                            <p>7. Si un triángulo tiene base 10u y altura 5u, su área es:</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">10u²</button></li>
+                                    <li><button class="opcion" data-value="b">20u²</button></li>
+                                    <li><button class="opcion" data-value="c">25u²</button></li>
+                                    <li><button class="opcion" data-value="d">50u²</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+            </div>
+          <div class="Nivel-3">
+                    <h3>NIVEL 3</h3>
+                    <div class="pregunta" data-correcta="c">
+                            <p>8. ¿Cuál de las siguientes opciones describe mejor la diferencia entre perímetro y área?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">El perímetro mide el interior, el área mide el exterior</button></li>
+                                    <li><button class="opcion" data-value="b">El perímetro mide lo que ocupa, el área mide los lados</button></li>
+                                    <li><button class="opcion" data-value="c">El perímetro mide el contorno, el área mide la superficie</button></li>
+                                    <li><button class="opcion" data-value="d">Ambos miden lo mismo</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="c">
+                            <p>9. Si un cuadrilátero tiene base 15u y altura 4u, su área es:</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">30u²</button></li>
+                                    <li><button class="opcion" data-value="b">45u²</button></li>
+                                    <li><button class="opcion" data-value="c">60u²</button></li>
+                                    <li><button class="opcion" data-value="d">75u²</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="a">
+                            <p>10. El área de un triángulo con base 12u y altura 10u es:</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">60u²</button></li>
+                                    <li><button class="opcion" data-value="b">100u²</button></li>
+                                    <li><button class="opcion" data-value="c">120u²</button></li>
+                                    <li><button class="opcion" data-value="d">20u²</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="c">
+                              <p>11. Si un jardín tiene forma de cuadrilátero con lados 20u, 20u, 15u y 15u, su perímetro es:</p>
+                              <ul>
+                                      <li><button class="opcion" data-value="a">40u</button></li>
+                                      <li><button class="opcion" data-value="b">50u</button></li>
+                                      <li><button class="opcion" data-value="c">70u</button></li>
+                                      <li><button class="opcion" data-value="d">100u</button></li>
+                              </ul>
+                              <p class="feedback"></p>
+                      </div>
+                  <div class="pregunta" data-correcta="c">
+                                <p>12. Imagina que quieres cercar y luego cubrir con pasto un terreno rectangular de 18u de base y 7u de altura. ¿Cuánto miden el perímetro y el área respectivamente?</p>
+                                <ul>
+                                        <li><button class="opcion" data-value="a">25u y 126u²</button></li>
+                                        <li><button class="opcion" data-value="b">36u y 126u²</button></li>
+                                        <li><button class="opcion" data-value="c">50u y 126u²</button></li>
+                                        <li><button class="opcion" data-value="d">50u y 252u²</button></li>
+                                </ul>
+                                <p class="feedback"></p>
+                        </div>
+              </div>
+  </div>
+</section>
+
+
+
+                          <!-- Footer -->
+
+
+                  <script src ="./main.js"></script>
+  <script src ="./matematicas.js"></script>
+          </body>
+  </html>

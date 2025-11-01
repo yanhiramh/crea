@@ -1,0 +1,297 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="./assets/css/indexstyles.css">
+  <link rel="stylesheet" href="./assets/css/matematicas.css">
+        <title>CREA</title>
+</head>
+
+<body>
+
+        <header>
+                <div class="logo">
+                        <a href="index.html">
+                                <img src="./images/logo.png" alt="logo" width="50" height="50">
+                        </a>
+                </div>
+
+                <img id="hamburger-menu" class="hamburger-menu" src="./images/icon-menu.svg" alt="menu icon" width="25" height="25">
+                <nav id='navbar'>
+                        <div class="back"></div>
+                                <div class="front">
+                                        <div class="close-img-container">
+                                                <img id="close-btn" src="./images/icon-close-menu.svg" alt="close icon">
+                                        </div>
+                                <ul>
+                                        <li class="cursos-ul-container">
+                                                <button id="cursosbtn" class="submenu-btn">Cursos <img id="cursos-btn-arrow" src="./images/arrow-down.svg" alt="flecha abajo"></button>
+                                                <ul id="cursos-ul" class="cursos-ul">
+                                                        <li>
+                                                                <a href="matematicas.html">Matemáticas</a>
+                                                        </li>
+                                                      <!--  <li>
+                                                                <a href="ingles.html">Inglés</a>    
+                                                        </li>  -->
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <span class="submenu-btn">
+                                                                <a href="desafios.html">Desafíos</a>
+                                                </span>
+                                        </li>
+                                        <li class="herramientas-ul-container">
+                                                <button id="herramientasbtn" class="submenu-btn">Herramientas <img id="herramientas-btn-arrow" src="./images/arrow-down.svg" alt="arrow icon"></button>
+
+                                                <ul id="herramientas-ul" class="herramientas-ul">
+                                                        <li>
+                                                                <a href="flashcards.html">Flashcards</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="asistente.html">Asistente AI</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                </ul>
+                                </div>
+                </nav>
+        </header>
+
+  
+  <!-- 🧩 CONTENIDO -->
+
+<!-- Información del curso
+        Curso: Matemática
+        Grado: Quinto
+        Área: Geometría
+        Tema: Perímetro y Área -->
+
+        
+    <section class="curso-section">
+      <h2 class="curso-sesion">Geometría - Perímetro y Área</h2>
+      <h3 class="curso-nombre">Curso: Matemáticas</h3>
+
+<!-- CONTENIDO TEÓRICO -->
+            
+      <div class="curso-contenido">
+              <h4>¿Se pueden medir las figuras?</h4>
+              <p>
+                Sí, usualmente lo haríamos con una regla y eso se mide en <strong>centímetros(cm)</strong>. Los centímetros es lo que llamamos una <strong>unidad de medida</strong>, que es como una etiqueta que nos dice cuánto espacio ocupa una figura.</p>
+              <p>Recuerda: las figuras geométricas ocupan un espacio, pero no son el espacio mismo.
+              </p>
+              <h4>¿Cómo podemos ver las medidas?</h4>
+              <p>Usualmente se coloca abajo del segmento y se pueden usar distintas unidades además del <strong>centímetro(cm)</strong>, por ejemplo las <strong>unidades(u)</strong>.
+              </p>
+              <img src="images/unidad-de-medida.png" alt="Unidad-de-medida-representación" class="imagen-medidas" width="200" height="auto">
+              <h4>PERÍMETRO</h4>
+              <p>
+                      Si podemos medir un segmento, entonces podemos sumar las medidas de los segmentos que forman una figura. A esa suma se le conoce como <strong>perímetro</strong> y tiene usos muy importantes en el mundo real. Por ejemplo, si quieres cercar un jardín, tienes que saber el perímetro. Pero tranquilo, esto es más sencillo de lo que parece, pues solo debes sumar las medidas de todos los lados.
+              </p>
+              <p>Veamos un ejemplo:
+              </p>
+              <img src="images/perimetro-ejemplo.png" alt="Perimetro-representación" class="imagen-medidas" width="260" height="auto">
+              <p>
+                      El perímetro de este <strong>cuadrilátero</strong> (todavía no pasemos a llamarlo rectángulo) es de <strong>70u</strong>. Este valor lo encuentras al sumar los valores de cada lado.
+              </p>
+              <h4>ÁREA</h4>
+              <p>
+                      El área es un concepto un poco más complejo. Primero, recordemos el ejemplo del jardín: Si para poner una cerca necesitaríamos conocer el perímetro, ¿qué necesitaríamos si quisieramos poner pasto? Necesitaríamos saber su <strong>área</strong>. Piensa en el área como el espacio que ocupa una figura. El área tiene medida que se mide en unidades cuadradas(por ejemplo, u² o cm²).
+              </p>
+              <h5><u>Cuadrilátero</u></h5>
+              <h6>
+                      Primero, para calcular el área de un cuadrilátero necesitamos identificar dos lados importantes: uno será la base y el otro la altura. Después, multiplicamos la base por la altura y así obtenemos el área del cuadrilátero. Veámoslo con un ejemplo a continuación:
+              </h6>
+              <img src="images/cuadrilatero-area.png" alt="Cuadrilátero-representación-area" class="imagen-medidas" width="280" height="auto">
+              <h6>
+                      En este ejemplo multiplicaremos 25u y 10u, dando de resultado 250u². El área de este cuadrilátero, por lo tanto, es de 250u².
+              </h6>
+              <h5><u>Triángulo</u></h5>
+              <h6>
+                      Para calcular el área de un triángulo necesitaremos identificar su base y su altura. En los ejercicios, muchas veces la altura ya se da, pero también se puede encontrar dibujando un segmento desde uno de los vértices hasta el lado opuesto que forme un ángulo recto (como una L). Veamos un ejemplo:
+              </h6>
+              <img src="images/triangulo-area.png" alt="Cuadrilátero-representación-area" class="imagen-medidas" width="280" height="auto">
+              <h6>
+                      Para calcular su área multiplicaremos la altura y la base, pero este resultado lo dividiremos entre dos.
+              </h6>
+              <h6>En nuestro ejemplo:</h6>
+              <h6>Base = 25 u</h6>
+              <h6>Altura = 10 u</h6>
+              <h6>Multiplicamos: 25 × 10 = 250 u²</h6>
+              <h6>Luego dividimos entre 2: 250 ÷ 2 = 125 u²</h6>
+              <h6>Te estarás preguntando: ¿por qué el cálculo del triángulo es parecido al del cuadrilátero? La explicación es sencilla: si tomamos un triángulo con la misma base y altura que un cuadrilátero, veremos que el triángulo ocupa exactamente la mitad del cuadrilátero, y por eso dividimos entre 2.</h6>
+              <img src="images/triangulo-cuadrilatero-representacion.png" alt="Triangulo-cuadrilátero-representación-area" class="imagen-medidas" width="280" height="auto">
+      </div>
+
+  <!-- 🧠 Sección de cuestionario -->
+  <div class="cuestionario">
+          <div class="Nivel-1">
+                <h2>Practicando</h2> <!--Change font-size-->
+                <h3>NIVEL 1</h3>
+                <div class="pregunta" data-correcta="a">
+                        <p>1. El perímetro de una figura se obtiene:</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">Sumando todos sus lados</button></li>
+                                <li><button class="opcion" data-value="b">Multiplicando la base por la altura</button></li>
+                                <li><button class="opcion" data-value="c">Dividiendo entre dos la base y la altura</button></li>
+                                <li><button class="opcion" data-value="d">Sumando el área con el volumen</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="b">
+                        <p>2. ¿Qué unidad se usa para medir el área?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">cm</button></li>
+                                <li><button class="opcion" data-value="b">cm²</button></li>
+                                <li><button class="opcion" data-value="c">cm³</button></li>
+                                <li><button class="opcion" data-value="d">u</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="c">
+                        <p>3. Si un cuadrilátero tiene lados de 10u, 10u, 10u y 10u, su perímetro es:</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">20u</button></li>
+                                <li><button class="opcion" data-value="b">30u</button></li>
+                                <li><button class="opcion" data-value="c">40u</button></li>
+                                <li><button class="opcion" data-value="d">100u</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+          </div>
+          <div class="Nivel-2">
+                  <h3>NIVEL 2</h3>
+                  <div class="pregunta" data-correcta="b">
+                          <p>4. El área de un cuadrilátero se calcula:</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">Sumando todos los lados</button></li>
+                                  <li><button class="opcion" data-value="b">Multiplicando base × altura</button></li>
+                                  <li><button class="opcion" data-value="c">Dividiendo base × altura entre 2</button></li>
+                                  <li><button class="opcion" data-value="d">Restando perímetro – base</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="a">
+                          <p>5. El área de un triángulo con base 8u y altura 6u es:</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">24cm²</button></li>
+                                  <li><button class="opcion" data-value="b">48cm²</button></li>
+                                  <li><button class="opcion" data-value="c">14cm²</button></li>
+                                  <li><button class="opcion" data-value="d">28cm²</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="c">
+                          <p>6. El perímetro de un rectángulo de 12u de largo y 5u de ancho es:</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">17u</button></li>
+                                  <li><button class="opcion" data-value="b">24u</button></li>
+                                  <li><button class="opcion" data-value="c">34u</button></li>
+                                  <li><button class="opcion" data-value="d">60u</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="c">
+                            <p>7. Si un triángulo tiene base 10u y altura 5u, su área es:</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">10u²</button></li>
+                                    <li><button class="opcion" data-value="b">20u²</button></li>
+                                    <li><button class="opcion" data-value="c">25u²</button></li>
+                                    <li><button class="opcion" data-value="d">50u²</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+            </div>
+          <div class="Nivel-3">
+                    <h3>NIVEL 3</h3>
+                    <div class="pregunta" data-correcta="c">
+                            <p>8. ¿Cuál de las siguientes opciones describe mejor la diferencia entre perímetro y área?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">El perímetro mide el interior, el área mide el exterior</button></li>
+                                    <li><button class="opcion" data-value="b">El perímetro mide lo que ocupa, el área mide los lados</button></li>
+                                    <li><button class="opcion" data-value="c">El perímetro mide el contorno, el área mide la superficie</button></li>
+                                    <li><button class="opcion" data-value="d">Ambos miden lo mismo</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="c">
+                            <p>9. Si un cuadrilátero tiene base 15u y altura 4u, su área es:</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">30u²</button></li>
+                                    <li><button class="opcion" data-value="b">45u²</button></li>
+                                    <li><button class="opcion" data-value="c">60u²</button></li>
+                                    <li><button class="opcion" data-value="d">75u²</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="a">
+                            <p>10. El área de un triángulo con base 12u y altura 10u es:</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">60u²</button></li>
+                                    <li><button class="opcion" data-value="b">100u²</button></li>
+                                    <li><button class="opcion" data-value="c">120u²</button></li>
+                                    <li><button class="opcion" data-value="d">20u²</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="c">
+                              <p>11. Si un jardín tiene forma de cuadrilátero con lados 20u, 20u, 15u y 15u, su perímetro es:</p>
+                              <ul>
+                                      <li><button class="opcion" data-value="a">40u</button></li>
+                                      <li><button class="opcion" data-value="b">50u</button></li>
+                                      <li><button class="opcion" data-value="c">70u</button></li>
+                                      <li><button class="opcion" data-value="d">100u</button></li>
+                              </ul>
+                              <p class="feedback"></p>
+                      </div>
+                  <div class="pregunta" data-correcta="c">
+                                <p>12. Imagina que quieres cercar y luego cubrir con pasto un terreno rectangular de 18u de base y 7u de altura. ¿Cuánto miden el perímetro y el área respectivamente?</p>
+                                <ul>
+                                        <li><button class="opcion" data-value="a">25u y 126u²</button></li>
+                                        <li><button class="opcion" data-value="b">36u y 126u²</button></li>
+                                        <li><button class="opcion" data-value="c">50u y 126u²</button></li>
+                                        <li><button class="opcion" data-value="d">50u y 252u²</button></li>
+                                </ul>
+                                <p class="feedback"></p>
+                        </div>
+              </div>
+  </div>
+</section>
+
+        <!-- Footer -->
+        <footer>
+                <div class="footer-content">
+                        <div class="footer-section">
+                                <h3>CREA</h3>
+                                <p>Tu aprendizaje, nuestra pasión.</p>
+                                <ul>
+                                        <u><li><a href="https://creaorg.carrd.co/#">Conoce más</a></li>
+                                                </u>
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Cursos</h4>
+                                <ul>
+                                        <li><a href="matematicas.html">Matemáticas</a></li>
+                                    <!--    <li><a href="ingles.html">Inglés</a></li>  -->
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Recursos</h4>
+                                <ul>
+                                        <li><a href="desafios.html">Desafíos</a></li>
+                                        <li><a href="flashcards.html">Flashcards</a></li>
+                                        <li><a href="asistente.html">Asistente AI</a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="footer-bottom">
+                        <p>&copy; 2025 CREA. Todos los derechos reservados.</p>
+                </div>
+        </footer>
+
+
+                  <script src ="./main.js"></script>
+  <script src ="./matematicas.js"></script>
+          </body>
+  </html>
