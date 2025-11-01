@@ -1,0 +1,110 @@
+
+
+.asistente-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding:  20px;
+  gap: 60px; /* espacio entre texto y chat */
+}
+
+/* Sección de texto */
+.asistente-texto {
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+  max-width: 500px;
+  padding: 10px 10px 10px 10px;
+}
+
+.asistente-texto h2 {
+  box-sizing: border-box;
+  font-size: 2.5rem;
+  margin-top: 16px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.asistente-texto p {
+  color: var(--mediumGray);
+  line-height: 1.6;
+  font-size: 1.1rem;
+  width: 100%;
+  margin: 2px 2px;
+  text
+}
+
+/* Sección del chat */
+.chat-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.chat-section iframe {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 1024px) {
+  .asistente-container {
+    flex-direction: row; /* dos columnas */
+    align-items: flex-start;
+    text-align: left;
+    gap: 40px;
+  }
+
+  .asistente-texto {
+    max-width: 45%;
+    text-align: left;
+    padding: 20px;
+    
+  }
+
+  .chat-section iframe {
+    max-width: 90%;
+    height: 600px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .asistente-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Cambiar orden: texto primero, luego chat */
+  .asistente-texto {
+    order: 1;
+    padding: 24px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .chat-section {
+    order: 2;
+    width: 100%;
+    display: flex;
+    margin-top: 16px; /* un poco de espacio entre secciones */
+  }
+
+  .asistente-texto h2 {
+    font-size: 1.8rem;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .asistente-texto p {
+    font-size: 1rem;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .chat-section iframe {
+    max-width: 90%;
+    height: 500px;
+  }
+}
