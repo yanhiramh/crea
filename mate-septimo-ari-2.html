@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="./assets/css/indexstyles.css">
+  <link rel="stylesheet" href="./assets/css/matematicas.css">
+        <title>CREA</title>
+</head>
+
+<body>
+
+        <header>
+                <div class="logo">
+                        <a href="index.html">
+                                <img src="./images/logo.png" alt="logo" width="50" height="50">
+                        </a>
+                </div>
+
+                <img id="hamburger-menu" class="hamburger-menu" src="./images/icon-menu.svg" alt="menu icon" width="25" height="25">
+                <nav id='navbar'>
+                        <div class="back"></div>
+                                <div class="front">
+                                        <div class="close-img-container">
+                                                <img id="close-btn" src="./images/icon-close-menu.svg" alt="close icon">
+                                        </div>
+                                <ul>
+                                        <li class="cursos-ul-container">
+                                                <button id="cursosbtn" class="submenu-btn">Cursos <img id="cursos-btn-arrow" src="./images/arrow-down.svg" alt="flecha abajo"></button>
+                                                <ul id="cursos-ul" class="cursos-ul">
+                                                        <li>
+                                                                <a href="matematicas.html">Matemáticas</a>
+                                                        </li>
+                                                      <!--  <li>
+                                                                <a href="ingles.html">Inglés</a>    
+                                                        </li>  -->
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <span class="submenu-btn">
+                                                                <a href="desafios.html">Desafíos</a>
+                                                </span>
+                                        </li>
+                                        <li class="herramientas-ul-container">
+                                                <button id="herramientasbtn" class="submenu-btn">Herramientas <img id="herramientas-btn-arrow" src="./images/arrow-down.svg" alt="arrow icon"></button>
+
+                                                <ul id="herramientas-ul" class="herramientas-ul">
+                                                        <li>
+                                                                <a href="flashcards.html">Flashcards</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="asistente.html">Asistente AI</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                </ul>
+                                </div>
+                </nav>
+        </header>
+
+  
+  <!-- 🧩 CONTENIDO -->
+
+<!-- Información del curso
+        Curso: Matemática
+        Grado: Septimo
+        Área: Aritmética
+        Tema: Divisibilidad: Criterios y Criba de Eratóstenes -->
+
+        
+    <section class="curso-section">
+      <h2 class="curso-sesion">Geometría - Divisibilidad: Criterios y Criba de Eratóstenes </h2>
+      <h3 class="curso-nombre">Curso: Matemáticas</h3>
+
+<!-- CONTENIDO TEÓRICO -->
+            
+      <div class="curso-contenido">
+              <p>En matemáticas decimos que un número es divisible entre otro siempre y cuando su <strong>división sea exacta</strong>, es decir, el resto sea cero.</p>
+              <h4>CRITERIOS DE DIVISIBILIDAD</h4>
+              <h6>
+                      <li>2: Un número es divisible entre 2 si termina en una cifra par (0, 2, 4, 6, 8, etc).</li>
+                      <li>3: Un número es divisible entre 3 si la suma de sus cifras es divisible entre 3.</li>
+                      <li>4: Un número es divisible entre 4 si sus dos últimas cifras son ceros o forman un número divisible por 4.</li>
+                      <li>5: Un número es divisible entre 5 si su última cifra termina en 0 o 5.</li>
+                      <li>6: Un número es divisible entre 6 si cumple con los criterios de divisibilidad del 2 y el 3</li>
+                      <li>8: Un número es divisible entre 8 si sus tres últimas cifras son ceros o forman un número divisible por 8.</li>
+                      <li>9: Un número es divisible entre 9 si la suma de sus difras es divisible por 9.</li>
+                      <li>10: Un número es divisible entre 10 si el último dígito termina en 0.</li>
+              </h6>
+              <h4>CRIBA DE ERATÓSTENES</h4>
+              <p>Es una <strong>técnica</strong> para encontrar números primos eliminando múltiplos. Recordemos que los números primos eran aquellos números que tienen sólo dos divisores, como el 7 o el 13.</p>
+              <p>Para aplicar esta técnica, se escribe una lista de números y se van tachando los que son múltiplos de otros, comenzando por 2, luego 3, 5, etc.</p>
+              <img src="images/criba.png" alt="Criba" class="imagen-medidas" width="280" height="auto">
+              
+              
+              
+             
+      </div>
+            
+<!-- ACTUALIZAR CON LA INFORMACIÓN DE ESTA SECCIÓN-->
+  <!-- 🧠 Sección de cuestionario -->
+  <div class="cuestionario">
+          <div class="Nivel-1">
+                <h2>Practicando</h2> <!--Change font-size-->
+                <h3>NIVEL 1</h3>
+                <div class="pregunta" data-correcta="c">
+                        <p>1. ¿Cuál de los siguientes números es divisible entre 2?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">135</button></li>
+                                <li><button class="opcion" data-value="b">243</button></li>
+                                <li><button class="opcion" data-value="c">148</button></li>
+                                <li><button class="opcion" data-value="d">175</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="d">
+                        <p>2. ¿Cuál de estos números es divisible entre 5?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">122</button></li>
+                                <li><button class="opcion" data-value="b">374</button></li>
+                                <li><button class="opcion" data-value="c">257</button></li>
+                                <li><button class="opcion" data-value="d">450</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="a">
+                        <p>3. La suma de las cifras de 639 es 18. Entonces, 639 es divisible entre:<p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">3 y 9</button></li>
+                                <li><button class="opcion" data-value="b">Solo el 3</button></li>
+                                <li><button class="opcion" data-value="c">Solo el 9</button></li>
+                                <li><button class="opcion" data-value="d">Ninguno</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+          </div>
+          <div class="Nivel-2">
+                  <h3>NIVEL 2</h3>
+                  <div class="pregunta" data-correcta="b">
+                          <p>4. ¿Cuál de los siguientes números es divisible entre 4?</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">1521</button></li>
+                                  <li><button class="opcion" data-value="b">1236</button></li>
+                                  <li><button class="opcion" data-value="c">2358</button></li>
+                                  <li><button class="opcion" data-value="d">1474</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="b">
+                          <p>5. Un número es divisible entre 6 si…</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">Termina en 0 o 5</button></li>
+                                  <li><button class="opcion" data-value="b">Es par y la suma de sus cifras es múltiplo de 3</button></li>
+                                  <li><button class="opcion" data-value="c">Termina en 6</button></li>
+                                  <li><button class="opcion" data-value="d">Sus últimas 3 cifras son 000</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="b">
+                          <p>6. ¿Cuál de los siguientes números no es divisible entre 3?</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">153</button></li>
+                                  <li><button class="opcion" data-value="b">241</button></li>
+                                  <li><button class="opcion" data-value="c">333</button></li>
+                                  <li><button class="opcion" data-value="d">420</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+            </div>
+          <div class="Nivel-3">
+                    <h3>NIVEL 3</h3>
+                    <div class="pregunta" data-correcta="c">
+                            <p>6. ¿Cuál de los siguientes números es divisible entre 8?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">236</button></li>
+                                    <li><button class="opcion" data-value="b">942</button></li>
+                                    <li><button class="opcion" data-value="c">5,128</button></li>
+                                    <li><button class="opcion" data-value="d">3,426</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="c">
+                            <p>8. ¿Cuál de los siguientes números no es divisible entre 9?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">729</button></li>
+                                    <li><button class="opcion" data-value="b">1,908</button></li>
+                                    <li><button class="opcion" data-value="c">3,452</button></li>
+                                    <li><button class="opcion" data-value="d">4,536</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="a">
+                            <p>10. En la Criba de Eratóstenes, al tachar múltiplos del 2, 3 y 5 entre 1 y 50, ¿cuál de estos números queda sin tachar (es primo)?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">37</button></li>
+                                    <li><button class="opcion" data-value="b">35</button></li>
+                                    <li><button class="opcion" data-value="c">27</button></li>
+                                    <li><button class="opcion" data-value="d">45</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+              </div>
+  </div>
+</section>
+
+
+
+        <!-- Footer -->
+        <footer>
+                <div class="footer-content">
+                        <div class="footer-section">
+                                <h3>CREA</h3>
+                                <p>Tu aprendizaje, nuestra pasión.</p>
+                                <ul>
+                                        <u><li><a href="https://creaorg.carrd.co/#">Conoce más</a></li>
+                                                </u>
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Cursos</h4>
+                                <ul>
+                                        <li><a href="matematicas.html">Matemáticas</a></li>
+                                    <!--    <li><a href="ingles.html">Inglés</a></li>  -->
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Recursos</h4>
+                                <ul>
+                                        <li><a href="desafios.html">Desafíos</a></li>
+                                        <li><a href="flashcards.html">Flashcards</a></li>
+                                        <li><a href="asistente.html">Asistente AI</a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="footer-bottom">
+                        <p>&copy; 2025 CREA. Todos los derechos reservados.</p>
+                </div>
+        </footer>
+
+
+
+                  <script src ="./main.js"></script>
+  <script src ="./matematicas.js"></script>
+          </body>
+  </html>

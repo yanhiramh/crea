@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="./assets/css/indexstyles.css">
+  <link rel="stylesheet" href="./assets/css/matematicas.css">
+        <title>CREA</title>
+</head>
+
+<body>
+
+        <header>
+                <div class="logo">
+                        <a href="index.html">
+                                <img src="./images/logo.png" alt="logo" width="50" height="50">
+                        </a>
+                </div>
+
+                <img id="hamburger-menu" class="hamburger-menu" src="./images/icon-menu.svg" alt="menu icon" width="25" height="25">
+                <nav id='navbar'>
+                        <div class="back"></div>
+                                <div class="front">
+                                        <div class="close-img-container">
+                                                <img id="close-btn" src="./images/icon-close-menu.svg" alt="close icon">
+                                        </div>
+                                <ul>
+                                        <li class="cursos-ul-container">
+                                                <button id="cursosbtn" class="submenu-btn">Cursos <img id="cursos-btn-arrow" src="./images/arrow-down.svg" alt="flecha abajo"></button>
+                                                <ul id="cursos-ul" class="cursos-ul">
+                                                        <li>
+                                                                <a href="matematicas.html">Matemáticas</a>
+                                                        </li>
+                                                      <!--  <li>
+                                                                <a href="ingles.html">Inglés</a>    
+                                                        </li>  -->
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <span class="submenu-btn">
+                                                                <a href="desafios.html">Desafíos</a>
+                                                </span>
+                                        </li>
+                                        <li class="herramientas-ul-container">
+                                                <button id="herramientasbtn" class="submenu-btn">Herramientas <img id="herramientas-btn-arrow" src="./images/arrow-down.svg" alt="arrow icon"></button>
+
+                                                <ul id="herramientas-ul" class="herramientas-ul">
+                                                        <li>
+                                                                <a href="flashcards.html">Flashcards</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="asistente.html">Asistente AI</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                </ul>
+                                </div>
+                </nav>
+        </header>
+
+  
+  <!-- 🧩 CONTENIDO -->
+
+<!-- Información del curso
+        Curso: Matemática
+        Grado: Quinto
+        Área: Álgebra
+        Tema: Expresiones Algebraicas  -->
+
+        
+    <section class="curso-section">
+      <h2 class="curso-sesion">Álgebra - Expresiones algebraicas</h2>
+      <h3 class="curso-nombre">Curso: Matemáticas</h3>
+
+<!-- CONTENIDO TEÓRICO -->
+            
+      <div class="curso-contenido">
+              <h4>¿Qué es una expresión algebraica?</h4>
+              <p> Imagina que estás resolviendo un misterio. Tienes una caja misteriosa (□) o una letra (como “x”) y tu tarea es descubrir qué número hay dentro. Eso es lo que hacemos con las expresiones algebraicas: usamos <strong>símbolos</strong> para representar un número que <strong>aún no conocemos</strong>.
+              </p>
+              <h4>¿Por qué usamos símbolos como □ o x?</h4>
+              <p>A veces no sabemos un número exacto, pero sí sabemos cómo se relaciona con otros números. En lugar de escribir “un número que no sé”, usamos algo más corto, como un recuadro (□) una letra (como “x” o “n”). Veamos un ejemplo con un recuadro:</p>
+              <p>3 + □ = 7</p>
+              <p>Aquí estamos diciendo: “¿Qué número le debo sumar al 3 para llegar a 7?”. Sabemos que: 3 + 4 = 7, entonces □ = 4. Veamos otro ejemplo, esta vez con una "X".</p>
+              <p>x + 5 = 12</p>
+              <p>La letra “x” representa un número desconocido. Para encontrarlo, hacemos la operación contraria a sumar 5, o sea restar 5::</p>
+              <p>x + 5 (- 5) = 12 (- 5 ) → x = 7 </p>
+              <p>Ya tenemos la respuesta. "X" equivale a 7</p>
+              <h4>¿Cómo pensar las expresiones?</h4>
+              <p>Las expresiones son como balanzas. Imagina que tienes dos lados y los dos deben pesar lo mismo.</p>
+              <img src="images/expresiones-algebraicas.png" alt="Expresiones-algebraicas-balanza" class="imagen-medidas" width="200" height="auto">
+              <p>Significa que el número misterioso más 3 tiene que dar 10. Para mantener el equilibrio, haces lo contrario de sumar 3: x + 3 (-3) = 10 (- 3) → x = 7
+              </p>
+              <img src="images/expresiones-alge-ejemplo.png" alt="Expresiones-algebraicas-balanza" class="imagen-medidas" width="200" height="auto">
+              <p>Con este proceso, sabemos ahora que "x" equivale a 7</p>
+              <h4>¿Qué tipos de problemas podemos ver?</h4>
+              <p>En los ejercicios con símbolos o letras, el número desconocido puede aparecer en diferentes operaciones. Aquí tienes algunos ejemplos:</p>
+              <h6>
+                      <li>Suma con incógnita: 5 + □ = 9 → □ = 4</li>
+                      <li>Resta con incógnita: □ - 2 = 6 → □ = 8</li>
+                      <li>Multiplicación con incógnita: □ × 3 = 15 → □ = 5</li>
+                      <li>División con incógnita: □ ÷ 2 = 6 → □ = 12</li>
+              </h6>
+              <h4>Las partes de una expresión algebraica</h4>
+              <img src="images/expr-alge-partes.png" alt="Expresiones-algebraicas-partes" class="imagen-medidas" width="200" height="auto">
+              <h6>
+                      <li><strong>Término</strong> Cada parte separada por un signo (+ o −). En este caso, el término es -5x³</li>
+
+                      <li><strong>Coeficiente:</strong> El número que acompaña a la letra. En -5x³, el coeficiente es -5.</li>
+                      <li><strong>Signo:</strong>Es parte del coeficiente y acompaña al número natural. Aquí el signo es negativo (-).</li>
+
+                      <li><strong>Variable:</strong> La letra que representa el número desconocido. Aquí, la variable es x.</li>
+                       <li><strong>Exponente:</strong> Es el número pequeño que indica cuántas veces se repite la variable. En este ejemplo, el exponente es el 3.</li>
+                      <li><strong>Parte literal:</strong>Esta compuesta por las variables y los exponentes, excluyendo al coeficiente y el signo. En este caso, la parte literal es x³.</li>
+
+                      <li><strong>Constante:</strong> El número que no tiene letra. En este ejemplo no tenemos constante.</li>
+              </h6>
+              <h4>Resumen rápido:</h4>
+              <h6>
+                      <li>Una expresión algebraica es una forma de representar un número desconocido con una letra o símbolo.</li>
+                      <li>Sirve para resolver problemas sin saber todos los números desde el inicio.</li>
+                      <li>Usamos lógica para encontrar qué número falta.</li>
+                      <li>Las expresiones funcionan como una balanza: los dos lados deben estar igualados.</li>
+              </h6>
+      </div>
+            
+<!-- ACTUALIZAR CON LA INFORMACIÓN DE ESTA SECCIÓN-->
+  <!-- 🧠 Sección de cuestionario -->
+  <div class="cuestionario">
+          <div class="Nivel-1">
+                <h2>Practicando</h2> <!--Change font-size-->
+                <h3>NIVEL 1</h3>
+                <div class="pregunta" data-correcta="c">
+                        <p>1. ¿Cuál de las siguientes es una expresión algebraica?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">5 + 3 = 8</button></li>
+                                <li><button class="opcion" data-value="b">12 – 7</button></li>
+                                <li><button class="opcion" data-value="c">2x + 4</button></li>
+                                <li><button class="opcion" data-value="d">3 × 5</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="c">
+                        <p>2. ¿Cuál es el coeficiente en la expresión 7x?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">2</button></li>
+                                <li><button class="opcion" data-value="b">x</button></li>
+                                <li><button class="opcion" data-value="c">7</button></li>
+                                <li><button class="opcion" data-value="d">0</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="b">
+                        <p>3. En la expresión 5y + 3, ¿cuál es la constante?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">y</button></li>
+                                <li><button class="opcion" data-value="b">3</button></li>
+                                <li><button class="opcion" data-value="c">5</button></li>
+                                <li><button class="opcion" data-value="d">8</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+          </div>
+          <div class="Nivel-2">
+                  <h3>NIVEL 2</h3>
+                  <div class="pregunta" data-correcta="a">
+                          <p>4. Encuentra el valor de x:</p>
+                          <p>2x + 8 = 20</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">6</button></li>
+                                  <li><button class="opcion" data-value="b">12</button></li>
+                                  <li><button class="opcion" data-value="c">5</button></li>
+                                  <li><button class="opcion" data-value="d">10</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="d">
+                          <p>5. Si a = 3, ¿cuánto vale 2a + 1?</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">a</button></li>
+                                  <li><button class="opcion" data-value="b">6</button></li>
+                                  <li><button class="opcion" data-value="c">2</button></li>
+                                  <li><button class="opcion" data-value="d">7</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="b">
+                          <p>6. En −3a³b, ¿cuál es la parte literal?</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">a³</button></li>
+                                  <li><button class="opcion" data-value="b">a³b</button></li>
+                                  <li><button class="opcion" data-value="c">b</button></li>
+                                  <li><button class="opcion" data-value="d">-3</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+            </div>
+          <div class="Nivel-3">
+                    <h3>NIVEL 3</h3>
+                    <div class="pregunta" data-correcta="d">
+                            <p>7. Si x = 2, evalúa:</p>
+                            <p>x² + 3x</p>
+                            <ul>                  
+                                    <li><button class="opcion" data-value="a">6</button></li>
+                                    <li><button class="opcion" data-value="b">7</button></li>
+                                    <li><button class="opcion" data-value="c">8</button></li>
+                                    <li><button class="opcion" data-value="d">10</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="b">
+                            <p>8. Si <strong>x = 3</strong> y <strong>y = 2</strong>, ¿cuánto vale la siguiente expresión:</p>
+                            <p>x + y − x + y</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">3</button></li>
+                                    <li><button class="opcion" data-value="b">4</button></li>
+                                    <li><button class="opcion" data-value="c">5</button></li>
+                                    <li><button class="opcion" data-value="d">6</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="c">
+                            <p>9. ¿Cuál de las siguientes expresiones tiene dos variables?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">7x³</button></li>
+                                    <li><button class="opcion" data-value="b">5x + 2</button></li>
+                                    <li><button class="opcion" data-value="c">4xy − 3</button></li>
+                                    <li><button class="opcion" data-value="d">9a²</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+              </div>
+  </div>
+</section>
+
+
+
+        <!-- Footer -->
+        <footer>
+                <div class="footer-content">
+                        <div class="footer-section">
+                                <h3>CREA</h3>
+                                <p>Tu aprendizaje, nuestra pasión.</p>
+                                <ul>
+                                        <u><li><a href="https://creaorg.carrd.co/#">Conoce más</a></li>
+                                                </u>
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Cursos</h4>
+                                <ul>
+                                        <li><a href="matematicas.html">Matemáticas</a></li>
+                                    <!--    <li><a href="ingles.html">Inglés</a></li>  -->
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Recursos</h4>
+                                <ul>
+                                        <li><a href="desafios.html">Desafíos</a></li>
+                                        <li><a href="flashcards.html">Flashcards</a></li>
+                                        <li><a href="asistente.html">Asistente AI</a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="footer-bottom">
+                        <p>&copy; 2025 CREA. Todos los derechos reservados.</p>
+                </div>
+        </footer>
+
+
+
+                  <script src ="./main.js"></script>
+  <script src ="./matematicas.js"></script>
+          </body>
+  </html>

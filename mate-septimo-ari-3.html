@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="./assets/css/indexstyles.css">
+  <link rel="stylesheet" href="./assets/css/matematicas.css">
+        <title>CREA</title>
+</head>
+
+<body>
+
+        <header>
+                <div class="logo">
+                        <a href="index.html">
+                                <img src="./images/logo.png" alt="logo" width="50" height="50">
+                        </a>
+                </div>
+
+                <img id="hamburger-menu" class="hamburger-menu" src="./images/icon-menu.svg" alt="menu icon" width="25" height="25">
+                <nav id='navbar'>
+                        <div class="back"></div>
+                                <div class="front">
+                                        <div class="close-img-container">
+                                                <img id="close-btn" src="./images/icon-close-menu.svg" alt="close icon">
+                                        </div>
+                                <ul>
+                                        <li class="cursos-ul-container">
+                                                <button id="cursosbtn" class="submenu-btn">Cursos <img id="cursos-btn-arrow" src="./images/arrow-down.svg" alt="flecha abajo"></button>
+                                                <ul id="cursos-ul" class="cursos-ul">
+                                                        <li>
+                                                                <a href="matematicas.html">Matemáticas</a>
+                                                        </li>
+                                                      <!--  <li>
+                                                                <a href="ingles.html">Inglés</a>    
+                                                        </li>  -->
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <span class="submenu-btn">
+                                                                <a href="desafios.html">Desafíos</a>
+                                                </span>
+                                        </li>
+                                        <li class="herramientas-ul-container">
+                                                <button id="herramientasbtn" class="submenu-btn">Herramientas <img id="herramientas-btn-arrow" src="./images/arrow-down.svg" alt="arrow icon"></button>
+
+                                                <ul id="herramientas-ul" class="herramientas-ul">
+                                                        <li>
+                                                                <a href="flashcards.html">Flashcards</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="asistente.html">Asistente AI</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                </ul>
+                                </div>
+                </nav>
+        </header>
+
+  
+  <!-- 🧩 CONTENIDO -->
+
+<!-- Información del curso
+        Curso: Matemática
+        Grado: Septimo
+        Área: Aritmética
+        Tema: Teorema Fundamental de la Aritmética   -->
+
+        
+    <section class="curso-section">
+      <h2 class="curso-sesion">Geometría - Teorema Fundamental de la Aritmética  </h2>
+      <h3 class="curso-nombre">Curso: Matemáticas</h3>
+
+<!-- CONTENIDO TEÓRICO -->
+            
+      <div class="curso-contenido">
+              <p>En matemática, el teorema fundamental de la aritmética o teorema de factorización única dice que <strong>todo entero positivo mayor que 1</strong> es un <strong>número primo</strong> o bien un <strong>único producto de números primos</strong>.</p>
+              <p>En este sentido, en términos de números primos, todo entero tiene una factorización única salvo en el orden de los factores. Al ser el resultado de una multiplicación de números, el orden de los factores es irrelevante.</p>
+              <h4>Números compuestos</h4>
+              <p>Los números compuestos son los que tienen más de dos divisores, es decir, pueden expresarse como el producto de otros números menores. Esto significa que no son primos porque pueden descomponerse en factores distintos de 1 y de sí mismos.</p>
+              <h4>Factorización prima</h4>
+              <p>La factorización prima consiste en descomponer un número compuesto en el <strong>producto de números primos</strong>. Es decir, escribir un número como multiplicación de factores primos.</p>
+              <p><strong>Ejemplo</strong></p>
+              <h6>
+                      <li>36 = 2 × 2 × 3 × 3 = 2² × 3²</li>
+                      <li>60 = 2 × 2 × 3 × 5 = 2² × 3 × 5</li>
+      </h6>
+             
+      </div>
+            
+<!-- ACTUALIZAR CON LA INFORMACIÓN DE ESTA SECCIÓN-->
+  <!-- 🧠 Sección de cuestionario -->
+  <div class="cuestionario">
+          <div class="Nivel-1">
+                <h2>Practicando</h2> <!--Change font-size-->
+                <h3>NIVEL 1</h3>
+                <div class="pregunta" data-correcta="c">
+                        <p>1. ¿Cuál de los siguientes es un número primo?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">4</button></li>
+                                <li><button class="opcion" data-value="b">9</button></li>
+                                <li><button class="opcion" data-value="c">7</button></li>
+                                <li><button class="opcion" data-value="d">15</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="b">
+                        <p>2. ¿Cuál de los siguientes es un número compuesto?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">2</button></li>
+                                <li><button class="opcion" data-value="b">12</button></li>
+                                <li><button class="opcion" data-value="c">5</button></li>
+                                <li><button class="opcion" data-value="d">11</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="b">
+                        <p>3. Según el teorema fundamental de la aritmética, todo número entero mayor que 1 puede expresarse como:</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">Una suma de números primos</button></li>
+                                <li><button class="opcion" data-value="b">Un producto único de números primos</button></li>
+                                <li><button class="opcion" data-value="c">Una resta de enteros consecutivos</button></li>
+                                <li><button class="opcion" data-value="d">Un número impar</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+          </div>
+          <div class="Nivel-2">
+                  <h3>NIVEL 2</h3>
+                  <div class="pregunta" data-correcta="b">
+                          <p>4. La factorización prima de 18 es:</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">2 × 9</button></li>
+                                  <li><button class="opcion" data-value="b">2 × 3²</button></li>
+                                  <li><button class="opcion" data-value="c">3 × 7</button></li>
+                                  <li><button class="opcion" data-value="d">2 × 3 × 11</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="b">
+                          <p>5. ¿Cuál de los siguientes representa correctamente la factorización prima de 45?</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">3²</button></li>
+                                  <li><button class="opcion" data-value="b">3² × 5</button></li>
+                                  <li><button class="opcion" data-value="c">5 × 9</button></li>
+                                  <li><button class="opcion" data-value="d">3² × 2²</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="a">
+                          <p>6. ¿Qué conjunto contiene solo números primos?</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">{2, 3, 5, 7}
+</button></li>
+                                  <li><button class="opcion" data-value="b">{4, 6, 9, 10}</button></li>
+                                  <li><button class="opcion" data-value="c">{1, 3, 9, 11}</button></li>
+                                  <li><button class="opcion" data-value="d">{8, 10, 12, 13}</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+            </div>
+          <div class="Nivel-3">
+                    <h3>NIVEL 3</h3>
+                  <div class="pregunta" data-correcta="b">
+                              <p>7. La factorización prima de 84 es:</p>
+                              <ul>
+                                      <li><button class="opcion" data-value="a">2 × 6 × 7</button></li>
+                                      <li><button class="opcion" data-value="b">2² × 3 × 7</button></li>
+                                      <li><button class="opcion" data-value="c">3² × 2 × 7</button></li>
+                                      <li><button class="opcion" data-value="d">2³ × 7</button></li>
+                              </ul>
+                              <p class="feedback"></p>
+                      </div>
+                  <div class="pregunta" data-correcta="d">
+                            <p>8. ¿Qué número tiene como factorización prima 2³ × 3² × 5?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">300</button></li>
+                                    <li><button class="opcion" data-value="b">180</button></li>
+                                    <li><button class="opcion" data-value="c">240</button></li>
+                                    <li><button class="opcion" data-value="d">360</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="b">
+                            <p>9. ¿Cuál es la factorización prima de 120?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">2 × 3 × 5²</button></li>
+                                    <li><button class="opcion" data-value="b">2³ × 3 × 5</button></li>
+                                    <li><button class="opcion" data-value="c">2² × 3² × 5</button></li>
+                                    <li><button class="opcion" data-value="d">2² × 3 × 7</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+              </div>
+  </div>
+</section>
+
+
+
+        <!-- Footer -->
+        <footer>
+                <div class="footer-content">
+                        <div class="footer-section">
+                                <h3>CREA</h3>
+                                <p>Tu aprendizaje, nuestra pasión.</p>
+                                <ul>
+                                        <u><li><a href="https://creaorg.carrd.co/#">Conoce más</a></li>
+                                                </u>
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Cursos</h4>
+                                <ul>
+                                        <li><a href="matematicas.html">Matemáticas</a></li>
+                                    <!--    <li><a href="ingles.html">Inglés</a></li>  -->
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Recursos</h4>
+                                <ul>
+                                        <li><a href="desafios.html">Desafíos</a></li>
+                                        <li><a href="flashcards.html">Flashcards</a></li>
+                                        <li><a href="asistente.html">Asistente AI</a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="footer-bottom">
+                        <p>&copy; 2025 CREA. Todos los derechos reservados.</p>
+                </div>
+        </footer>
+
+
+                  <script src ="./main.js"></script>
+  <script src ="./matematicas.js"></script>
+          </body>
+  </html>

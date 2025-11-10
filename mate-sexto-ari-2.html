@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="./assets/css/indexstyles.css">
+  <link rel="stylesheet" href="./assets/css/matematicas.css">
+        <title>CREA</title>
+</head>
+
+<body>
+
+        <header>
+                <div class="logo">
+                        <a href="index.html">
+                                <img src="./images/logo.png" alt="logo" width="50" height="50">
+                        </a>
+                </div>
+
+                <img id="hamburger-menu" class="hamburger-menu" src="./images/icon-menu.svg" alt="menu icon" width="25" height="25">
+                <nav id='navbar'>
+                        <div class="back"></div>
+                                <div class="front">
+                                        <div class="close-img-container">
+                                                <img id="close-btn" src="./images/icon-close-menu.svg" alt="close icon">
+                                        </div>
+                                <ul>
+                                        <li class="cursos-ul-container">
+                                                <button id="cursosbtn" class="submenu-btn">Cursos <img id="cursos-btn-arrow" src="./images/arrow-down.svg" alt="flecha abajo"></button>
+                                                <ul id="cursos-ul" class="cursos-ul">
+                                                        <li>
+                                                                <a href="matematicas.html">Matemáticas</a>
+                                                        </li>
+                                                      <!--  <li>
+                                                                <a href="ingles.html">Inglés</a>    
+                                                        </li>  -->
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <span class="submenu-btn">
+                                                                <a href="desafios.html">Desafíos</a>
+                                                </span>
+                                        </li>
+                                        <li class="herramientas-ul-container">
+                                                <button id="herramientasbtn" class="submenu-btn">Herramientas <img id="herramientas-btn-arrow" src="./images/arrow-down.svg" alt="arrow icon"></button>
+
+                                                <ul id="herramientas-ul" class="herramientas-ul">
+                                                        <li>
+                                                                <a href="flashcards.html">Flashcards</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="asistente.html">Asistente AI</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                </ul>
+                                </div>
+                </nav>
+        </header>
+
+  
+  <!-- 🧩 CONTENIDO -->
+
+        <!-- Información del curso
+        Curso: Matemática
+        Grado: Sexto
+        Área: Aritmética
+        Tema: Proporcionalidad y Razones   -->
+
+
+        <section class="curso-section">
+                <h2 class="curso-sesion">Aritmética - Proporcionalidad y Razones</h2>
+                <h3 class="curso-nombre">Curso: Matemáticas</h3>
+<!-- CONTENIDO TEÓRICO -->
+                <div class="curso-contenido">
+                        <h4>RAZONES</h4>
+                        <p>La razón es una comparación entre dos cantidades, indicando cuántas veces una es mayor o menor que la otra. La razón se escribe como una fracción (3/4) o con dos puntos (3:4).</p>
+                        <p>Las razones se usan usualmente para expresar cantidades en términos relativos, lo que permite comparar objetos con diferentes escalas.</p>
+                        <img src="images/razon.png" alt="Razon" class="imagen-medidas" width="260" height="auto">
+                        <p>Por ejemplo, si 1 naranja cuesta $5, 2 naranjas costarán $10, y 4 costarán $20. La razón aqui entonces es de 1 a 5, lo que se puede escribir como <strong>1/5</strong> o <strong>1:5</strong>.</p>
+                        <h4>PROPORCIONES</h4>
+                        <p>Una proporción ocurre cuando dos razones son equivalentes. Por ejemplo, si tenemos 2/3 = 4/6, esto indica que las dos razones son proporcionales. Usamos este término para referirnos a la relación entre magnitudes. Además, se usa principalmente cuando los valores de una magnitud dependen de los valores de otra directamente.</p>
+                        <img src="images/proporcion.png" alt="Proporcion" class="imagen-medidas" width="260" height="auto">
+                        <p>Por ejemplo, si una receta usa 2 tazas de harina por 3 de leche, y tú usas 4 tazas de harina, entonces debes usar 6 de leche para mantener la proporción (2:3 = 4:6).</p>
+                        
+      </div>
+            
+<!-- ACTUALIZAR CON LA INFORMACIÓN DE ESTA SECCIÓN-->
+  <!-- 🧠 Sección de cuestionario -->
+  <div class="cuestionario">
+          <div class="Nivel-1">
+                <h2>Practicando</h2> <!--Change font-size-->
+                <h3>NIVEL 1</h3>
+                <div class="pregunta" data-correcta="c">
+                        <p>1. Escribe la razón entre 6 naranjas y 3 manzanas.</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">2:3</button></li>
+                                <li><button class="opcion" data-value="b">3:6</button></li>
+                                <li><button class="opcion" data-value="c">2:1</button></li>
+                                <li><button class="opcion" data-value="d">1:2</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="b">
+                        <p>2. Si 5 lápices cuestan $15, ¿cuánto costarán 10 lápices?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">$25</button></li>
+                                <li><button class="opcion" data-value="b">$30</button></li>
+                                <li><button class="opcion" data-value="c">$35</button></li>
+                                <li><button class="opcion" data-value="d">$40</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="b">
+                        <p>3. La razón entre niños y niñas es 4:5. Si hay 20 niños, ¿cuántas niñas hay?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">20</button></li>
+                                <li><button class="opcion" data-value="b">25</button></li>
+                                <li><button class="opcion" data-value="c">24</button></li>
+                                <li><button class="opcion" data-value="d">30</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+          </div>
+          <div class="Nivel-2">
+                  <h3>NIVEL 2</h3>
+                  <div class="pregunta" data-correcta="a">
+                          <p>4. ¿Las cantidades 8:12 y 10:15 son proporcionales?</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">Sí</button></li>
+                                  <li><button class="opcion" data-value="b">No</button></li>
+                                  <li><button class="opcion" data-value="c">Solo si se simplifica</button></li>
+                                  <li><button class="opcion" data-value="d">No se puede saber</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="d">
+                          <p>5. Si 3 camisetas cuestan $270, ¿cuánto costarán 7 camisetas si el precio es proporcional?</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">$600</button></li>
+                                  <li><button class="opcion" data-value="b">$610</button></li>
+                                  <li><button class="opcion" data-value="c">$620</button></li>
+                                  <li><button class="opcion" data-value="d">$630</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="b">
+                          <p>6. La razón entre perros y gatos es 3:2. Si hay 12 perros, ¿cuántos gatos hay?</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">6</button></li>
+                                  <li><button class="opcion" data-value="b">8</button></li>
+                                  <li><button class="opcion" data-value="c">10</button></li>
+                                  <li><button class="opcion" data-value="d">12</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="d">
+                            <p>7. Un coche recorre 120 km con 8 litros de gasolina. ¿Cuántos km recorrerá con 20 litros?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">250 km</button></li>
+                                    <li><button class="opcion" data-value="b">260 km</button></li>
+                                    <li><button class="opcion" data-value="c">280 km</button></li>
+                                    <li><button class="opcion" data-value="d">300 km</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+            </div>
+          <div class="Nivel-3">
+                    <h3>NIVEL 3</h3>
+                    <div class="pregunta" data-correcta="d">
+                            <p>8. Una receta dice que por 4 huevos se usan 600 g de harina. ¿Cuánta harina usarías para 10 huevos?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">1,000 g</button></li>
+                                    <li><button class="opcion" data-value="b">1,200 g</button></li>
+                                    <li><button class="opcion" data-value="c">1,400 g</button></li>
+                                    <li><button class="opcion" data-value="d">1,500 g</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="c">
+                            <p>9. Una fábrica produce 240 juguetes en 6 horas. ¿Cuántos producirá en 15 horas si mantiene el mismo ritmo?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">500</button></li>
+                                    <li><button class="opcion" data-value="b">550</button></li>
+                                    <li><button class="opcion" data-value="c">600</button></li>
+                                    <li><button class="opcion" data-value="d">650</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="b">
+                            <p>10. Si 7 manzanas cuestan $42, ¿cuánto costarán 13 manzanas?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">$72</button></li>
+                                    <li><button class="opcion" data-value="b">$78</button></li>
+                                    <li><button class="opcion" data-value="c">$80</button></li>
+                                    <li><button class="opcion" data-value="d">$84</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="b">
+                              <p>11. Un mapa tiene una escala de 1:100,000. Si una carretera mide 8 cm en el mapa, ¿cuántos kilómetros mide realmente?</p>
+                              <ul>
+                                      <li><button class="opcion" data-value="a">6km</button></li>
+                                      <li><button class="opcion" data-value="b">8km</button></li>
+                                      <li><button class="opcion" data-value="c">10kg</button></li>
+                                      <li><button class="opcion" data-value="d">12kg</button></li>
+                              </ul>
+                              <p class="feedback"></p>
+                      </div>
+                  <div class="pregunta" data-correcta="c">
+                                <p>12. En una empresa, por cada 5 empleados hay 2 computadoras. Si hay 60 empleados, ¿cuántas computadoras necesitan?</p>
+                                <ul>
+                                        <li><button class="opcion" data-value="a">20</button></li>
+                                        <li><button class="opcion" data-value="b">22</button></li>
+                                        <li><button class="opcion" data-value="c">24</button></li>
+                                        <li><button class="opcion" data-value="d">26</button></li>
+                                </ul>
+                                <p class="feedback"></p>
+                        </div>
+              </div>
+  </div>
+</section>
+
+
+
+        <!-- Footer -->
+        <footer>
+                <div class="footer-content">
+                        <div class="footer-section">
+                                <h3>CREA</h3>
+                                <p>Tu aprendizaje, nuestra pasión.</p>
+                                <ul>
+                                        <u><li><a href="https://creaorg.carrd.co/#">Conoce más</a></li>
+                                                </u>
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Cursos</h4>
+                                <ul>
+                                        <li><a href="matematicas.html">Matemáticas</a></li>
+                                    <!--    <li><a href="ingles.html">Inglés</a></li>  -->
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Recursos</h4>
+                                <ul>
+                                        <li><a href="desafios.html">Desafíos</a></li>
+                                        <li><a href="flashcards.html">Flashcards</a></li>
+                                        <li><a href="asistente.html">Asistente AI</a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="footer-bottom">
+                        <p>&copy; 2025 CREA. Todos los derechos reservados.</p>
+                </div>
+        </footer>
+
+
+
+                  <script src ="./main.js"></script>
+  <script src ="./matematicas.js"></script>
+          </body>
+  </html>

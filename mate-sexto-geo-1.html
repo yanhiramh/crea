@@ -1,0 +1,300 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="./assets/css/indexstyles.css">
+  <link rel="stylesheet" href="./assets/css/matematicas.css">
+        <title>CREA</title>
+</head>
+
+<body>
+
+        <header>
+                <div class="logo">
+                        <a href="index.html">
+                                <img src="./images/logo.png" alt="logo" width="50" height="50">
+                        </a>
+                </div>
+
+                <img id="hamburger-menu" class="hamburger-menu" src="./images/icon-menu.svg" alt="menu icon" width="25" height="25">
+                <nav id='navbar'>
+                        <div class="back"></div>
+                                <div class="front">
+                                        <div class="close-img-container">
+                                                <img id="close-btn" src="./images/icon-close-menu.svg" alt="close icon">
+                                        </div>
+                                <ul>
+                                        <li class="cursos-ul-container">
+                                                <button id="cursosbtn" class="submenu-btn">Cursos <img id="cursos-btn-arrow" src="./images/arrow-down.svg" alt="flecha abajo"></button>
+                                                <ul id="cursos-ul" class="cursos-ul">
+                                                        <li>
+                                                                <a href="matematicas.html">Matemáticas</a>
+                                                        </li>
+                                                      <!--  <li>
+                                                                <a href="ingles.html">Inglés</a>    
+                                                        </li>  -->
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <span class="submenu-btn">
+                                                                <a href="desafios.html">Desafíos</a>
+                                                </span>
+                                        </li>
+                                        <li class="herramientas-ul-container">
+                                                <button id="herramientasbtn" class="submenu-btn">Herramientas <img id="herramientas-btn-arrow" src="./images/arrow-down.svg" alt="arrow icon"></button>
+
+                                                <ul id="herramientas-ul" class="herramientas-ul">
+                                                        <li>
+                                                                <a href="flashcards.html">Flashcards</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="asistente.html">Asistente AI</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                </ul>
+                                </div>
+                </nav>
+        </header>
+
+  
+  <!-- 🧩 CONTENIDO -->
+
+<!-- Información del curso
+        Curso: Matemática
+        Grado: Sexto
+        Área: Geometría
+        Tema: TRIÁNGULOS Y CUADRILÁTEROS   -->
+
+        
+    <section class="curso-section">
+      <h2 class="curso-sesion">Geometría - Triángulos y cuadriláteros</h2>
+      <h3 class="curso-nombre">Curso: Matemáticas</h3>
+
+<!-- CONTENIDO TEÓRICO -->
+            
+      <div class="curso-contenido">
+              <h4>TRIÁNGULOS</h4>
+              <h4>Tipos de triángulos por sus lados</h4>
+              <h5><u>Triángulos equiláteros</u></h5>
+              <h6>Son los triángulos clásicos, en los que sus <strong> tres lados miden lo mismo</strong>. Sus <strong>tres ángulos internos</strong> también son <strong>iguales</strong>, cada uno de 60°.</h6>
+              <img src="images/equilatero.png" alt="Equilatero" class="imagen-medidas" width="200" height="auto">
+              <h5><u>Triángulos isoceles</u></h5>
+              <h6>Tienen <strong>dos lados iguales</strong>. Los ángulos opuestos a los lados iguales también son iguales. Esto significa que en un triángulo isósceles hay dos lados y dos ángulos iguales.</h6>
+              <img src="images/isoceles.png" alt="Isoceles" class="imagen-medidas" width="200" height="auto">
+              <h5><u>Triángulos escalenos</u></h5>
+              <h6>Son triángulos cuyos 3 lados y por ende 3 ángulos son totalmente <strong>diferentes</strong>.</h6>
+              <img src="images/escaleno.png" alt="Escaleno" class="imagen-medidas" width="200" height="auto">
+              <h4>Tipos de triángulos por sus ángulos</h4>
+              <h5><u>Triángulos acutángulos</u></h5>
+              <h6><strong>Todos sus ángulos</strong> miden <strong>menos de 90°</strong> como se ve en la figura. Recuerda, absolutamente todos los ángulos deben ser menores a 90°.</h6>
+              <img src="images/acutangulo.png" alt="Triangulo-acutangulo" class="imagen-medidas" width="200" height="auto">
+              <h5><u>Triángulos obtusángulos</u></h5>
+              <h6><strong>Uno</strong> de sus ángulos es <strong>obtuso</strong>, es decir, mide <strong>más de 90°</strong> lo que le da el nombre al triángulo. Con que sólo uno de los ángulos sea obtuso, ya es un triángulo obtusángulo.</h6>
+              <img src="images/obtusangulo.png" alt="Triangulo-obtusangulo" class="imagen-medidas" width="200" height="auto">
+              <h5><u>Triángulos rectángulos</u></h5>
+              <h6><strong>Uno de sus ángulos</strong> mide<strong>90°</strong>, es decir, es <strong>recto</strong> lo que le da el nombre al triángulo. Con que sólo uno de los ángulos sea recto, ya es un triángulo rectángulo.</h6>
+              <img src="images/triangulo-rectangulo.png" alt="Triangulo-rectangulo" class="imagen-medidas" width="200" height="auto">
+              <h4>CUADRILÁTEROS</h4>
+              <h4>Tipos de cuadriláteros</h4>
+              <h5><u>Trapezoide</u></h5>
+              <h6>Son esos cuadriláteros que <strong>no tienen lados paralelos</strong>.</h6>
+              <img src="images/trapezoide.png" alt="Trapezoide" class="imagen-medidas" width="200" height="auto">
+              <h5><u>Trapecio</u></h5>
+              <h6>Tiene <strong>dos lados paralelos entre sí</strong>. Puede ser <strong>escaleno</strong> si todos sus lados son distintos. También, puede ser <strong>isósceles</strong> si los dos lados no paralelos tienen la misma longitud y si los ángulos de cada base son iguales (dos ángulos agudos iguales y dos ángulos obtusos iguales). Finalmente, puede ser un trapecio <strong>rectángulo</strong> si tiene <strong>dos ángulos rectos</strong>, así como se ve en la figura</h6>
+              <img src="images/trapecios.png" alt="Trapecios" class="imagen-medidas" width="200" height="auto">
+              <h5><u>Paralelogramo</u></h5>
+              <h6>Tiene <strong>dos pares de lados paralelos</strong>. Existen cuatro tipos de paralelogramos: El cuadrado, el rectángulo, el rombo, y el romboide.</h6>
+              <h6><strong>1. Cuadrado</strong></h6>
+              <h6>Tiene <strong>cuatro ángulos rectos</strong> de 90° y <strong>cuatro lados iguales</strong>. Al ser un paralelogramo, podemos ver que hay dos pares de lados paralelos.</h6>
+              <img src="images/cuadrado.png" alt="Cuadrado" class="imagen-medidas" width="200" height="auto">
+              <h6><strong>2. Rectángulo</strong></h6>
+              <h6>Tiene <strong>cuatro ángulos rectos</strong> pero, a diferencia del cuadrado, <strong>no todos sus lados son iguales</strong>. Tiene dos pares de lados iguales, como podemos observar en la imagen. Al ser un paralelogramo, podemos ver que hay dos pares de lados paralelos.</h6>
+              <img src="images/rectangulo.png" alt="Rectangulo" class="imagen-medidas" width="200" height="auto">
+              <h6><strong>3. Rombo</strong></h6>
+              <h6>Tiene <strong>cuatro lados iguales </strong> pero, a diferencia del cuadrado, <strong>no todos sus ángulos son iguales</strong>. Tiene dos pares de ángulos iguales, como podemos observar en la imagen. Al ser un paralelogramo, podemos ver que hay dos pares de lados paralelos.</h6>
+              <img src="images/rombo.png" alt="Rombo" class="imagen-medidas" width="200" height="auto">
+              <h6><strong>4. Romboide</strong></h6>
+              <h6>Tiene <strong>dos pares de ángulos opuestos iguales</strong> y <strong>dos pares de lados opuestos iguales</strong>. Al ser un paralelogramo, podemos ver que hay dos pares de lados paralelos.</h6>
+              <img src="images/romboide.png" alt="Romboide" class="imagen-medidas" width="200" height="auto">
+              
+              
+      </div>
+            
+<!-- ACTUALIZAR CON LA INFORMACIÓN DE ESTA SECCIÓN-->
+  <!-- 🧠 Sección de cuestionario -->
+  <div class="cuestionario">
+          <div class="Nivel-1">
+                <h2>Practicando</h2> <!--Change font-size-->
+                <h3>NIVEL 1</h3>
+                <div class="pregunta" data-correcta="c">
+                        <p>1. Un triángulo equilátero tiene:</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">2 lados iguales y 1 diferente</button></li>
+                                <li><button class="opcion" data-value="b">3 lados diferentes</button></li>
+                                <li><button class="opcion" data-value="c">3 lados iguales</button></li>
+                                <li><button class="opcion" data-value="d">Un ángulo recto</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="c">
+                        <p>2. En un triángulo isósceles:</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">Todos sus lados son diferentes</button></li>
+                                <li><button class="opcion" data-value="b">Todos sus lados son iguales</button></li>
+                                <li><button class="opcion" data-value="c">Tiene 2 lados y 2 ángulos iguales</button></li>
+                                <li><button class="opcion" data-value="d">Tiene un ángulo recto</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="d">
+                        <p>3. ¿Cuál de los siguientes no es un paralelogramo?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">Rectángulo</button></li>
+                                <li><button class="opcion" data-value="b">Cuadrado</button></li>
+                                <li><button class="opcion" data-value="c">Romboide</button></li>
+                                <li><button class="opcion" data-value="d">Trapecio</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+          </div>
+          <div class="Nivel-2">
+                  <h3>NIVEL 2</h3>
+                  <div class="pregunta" data-correcta="b">
+                          <p>4. Si un triángulo tiene todos sus ángulos menores a 90°, se llama:</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">Obtusángulo</button></li>
+                                  <li><button class="opcion" data-value="b">Acutángulo</button></li>
+                                  <li><button class="opcion" data-value="c">Rectángulo</button></li>
+                                  <li><button class="opcion" data-value="d">Escaleno</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="b">
+                          <p>5. Un triángulo rectángulo se caracteriza porque:</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">Tiene todos sus ángulos iguales</button></li>
+                                  <li><button class="opcion" data-value="b">Tiene un ángulo de 90°</button></li>
+                                  <li><button class="opcion" data-value="c">Tiene dos lados iguales</button></li>
+                                  <li><button class="opcion" data-value="d">Tiene un ángulo mayor a 90°</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="d">
+                          <p>6. Un trapecio isósceles se distingue porque:</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">Tiene dos lados paralelos y dos lados no paralelos iguales</button></li>
+                                  <li><button class="opcion" data-value="b">Todos sus lados son diferentes</button></li>
+                                  <li><button class="opcion" data-value="c">Tiene cuatro ángulos rectos</button></li>
+                                  <li><button class="opcion" data-value="d">Sus diagonales siempre son iguales</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="c">
+                            <p>7. ¿Cuál es la diferencia principal entre un rombo y un cuadrado?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">El cuadrado no tiene lados paralelos</button></li>
+                                    <li><button class="opcion" data-value="b">El rombo tiene lados desiguales</button></li>
+                                    <li><button class="opcion" data-value="c">El cuadrado tiene todos los ángulos rectos, el rombo no</button></li>
+                                    <li><button class="opcion" data-value="d">El romboide es igual al cuadrado</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+            </div>
+          <div class="Nivel-3">
+                    <h3>NIVEL 3</h3>
+                    <div class="pregunta" data-correcta="c">
+                            <p>8. En un triángulo isósceles, el ángulo del vértice mide 40°. ¿Cuánto mide cada uno de los otros dos ángulos?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">60°</button></li>
+                                    <li><button class="opcion" data-value="b">70°</button></li>
+                                    <li><button class="opcion" data-value="c">80°</button></li>
+                                    <li><button class="opcion" data-value="d">90°</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="c">
+                            <p>9. Un triángulo tiene ángulos de 50° y 60°. ¿Cuál es la medida del tercer ángulo?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">50</button></li>
+                                    <li><button class="opcion" data-value="b">60°</button></li>
+                                    <li><button class="opcion" data-value="c">70°</button></li>
+                                    <li><button class="opcion" data-value="d">80°</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="a">
+                            <p>10. En un paralelogramo:</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">Todos los lados son diferentes</button></li>
+                                    <li><button class="opcion" data-value="b">Los lados opuestos son paralelos e iguales</button></li>
+                                    <li><button class="opcion" data-value="c">Tiene solo un par de lados paralelos</button></li>
+                                    <li><button class="opcion" data-value="d">Todos sus ángulos son rectos</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="b">
+                              <p>11. Un romboide tiene:</p>
+                              <ul>
+                                      <li><button class="opcion" data-value="a">Cuatro lados iguales y cuatro ángulos rectos</button></li>
+                                      <li><button class="opcion" data-value="b">Dos pares de lados paralelos y dos pares de ángulos opuestos iguales</button></li>
+                                      <li><button class="opcion" data-value="c">Dos lados paralelos y dos no paralelos</button></li>
+                                      <li><button class="opcion" data-value="d">Cuatro lados iguales pero ángulos distintos</button></li>
+                              </ul>
+                              <p class="feedback"></p>
+                      </div>
+                  <div class="pregunta" data-correcta="d">
+                                <p>12. Un cuadrilátero tiene dos pares de lados paralelos y dos ángulos rectos. ¿Qué figura es?</p>
+                                <ul>
+                                        <li><button class="opcion" data-value="a">Romboide</button></li>
+                                        <li><button class="opcion" data-value="b">Rombo</button></li>
+                                        <li><button class="opcion" data-value="c">Círculo</button></li>
+                                        <li><button class="opcion" data-value="d">Rectángulo</button></li>
+                                </ul>
+                                <p class="feedback"></p>
+                        </div>
+              </div>
+  </div>
+</section>
+
+
+
+        <!-- Footer -->
+        <footer>
+                <div class="footer-content">
+                        <div class="footer-section">
+                                <h3>CREA</h3>
+                                <p>Tu aprendizaje, nuestra pasión.</p>
+                                <ul>
+                                        <u><li><a href="https://creaorg.carrd.co/#">Conoce más</a></li>
+                                                </u>
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Cursos</h4>
+                                <ul>
+                                        <li><a href="matematicas.html">Matemáticas</a></li>
+                                    <!--    <li><a href="ingles.html">Inglés</a></li>  -->
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Recursos</h4>
+                                <ul>
+                                        <li><a href="desafios.html">Desafíos</a></li>
+                                        <li><a href="flashcards.html">Flashcards</a></li>
+                                        <li><a href="asistente.html">Asistente AI</a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="footer-bottom">
+                        <p>&copy; 2025 CREA. Todos los derechos reservados.</p>
+                </div>
+        </footer>
+
+
+
+                  <script src ="./main.js"></script>
+  <script src ="./matematicas.js"></script>
+          </body>
+  </html>

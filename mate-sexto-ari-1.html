@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="./assets/css/indexstyles.css">
+  <link rel="stylesheet" href="./assets/css/matematicas.css">
+        <title>CREA</title>
+</head>
+
+<body>
+
+        <header>
+                <div class="logo">
+                        <a href="index.html">
+                                <img src="./images/logo.png" alt="logo" width="50" height="50">
+                        </a>
+                </div>
+
+                <img id="hamburger-menu" class="hamburger-menu" src="./images/icon-menu.svg" alt="menu icon" width="25" height="25">
+                <nav id='navbar'>
+                        <div class="back"></div>
+                                <div class="front">
+                                        <div class="close-img-container">
+                                                <img id="close-btn" src="./images/icon-close-menu.svg" alt="close icon">
+                                        </div>
+                                <ul>
+                                        <li class="cursos-ul-container">
+                                                <button id="cursosbtn" class="submenu-btn">Cursos <img id="cursos-btn-arrow" src="./images/arrow-down.svg" alt="flecha abajo"></button>
+                                                <ul id="cursos-ul" class="cursos-ul">
+                                                        <li>
+                                                                <a href="matematicas.html">Matemáticas</a>
+                                                        </li>
+                                                      <!--  <li>
+                                                                <a href="ingles.html">Inglés</a>    
+                                                        </li>  -->
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <span class="submenu-btn">
+                                                                <a href="desafios.html">Desafíos</a>
+                                                </span>
+                                        </li>
+                                        <li class="herramientas-ul-container">
+                                                <button id="herramientasbtn" class="submenu-btn">Herramientas <img id="herramientas-btn-arrow" src="./images/arrow-down.svg" alt="arrow icon"></button>
+
+                                                <ul id="herramientas-ul" class="herramientas-ul">
+                                                        <li>
+                                                                <a href="flashcards.html">Flashcards</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="asistente.html">Asistente AI</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                </ul>
+                                </div>
+                </nav>
+        </header>
+
+  
+  <!-- 🧩 CONTENIDO -->
+
+        <!-- Información del curso
+        Curso: Matemática
+        Grado: Sexto
+        Área: Aritmética
+        Tema: Porcentajes y Descuentos   -->
+
+
+        <section class="curso-section">
+                <h2 class="curso-sesion">Aritmética - Porcentajes y Descuentos</h2>
+                <h3 class="curso-nombre">Curso: Matemáticas</h3>
+<!-- CONTENIDO TEÓRICO -->
+                <div class="curso-contenido">
+                        <h4>PORCENTAJES</h4>
+                        <h4>¿Qué es un porcentaje?</h4>
+                        <p>El <strong>porcentaje</strong> es una símbolo que representa una cantidad como una fracción en 100 partes iguales. En otras palabras, un porcentaje representa una parte de un total de 100. Se usa para definir proporciones y relaciones entre dos cantidades. Se representa con el símbolo de <strong>tanto por ciento  (%)</strong>. Por ejemplo, 25% (que se lee como veinticinco por ciento) significa 25 de cada 100.</p>
+                        <h4>¿Cómo se calcula el procentaje?</h4>
+                        <p>Para hallar el porcentaje de una cantidad, multiplica la cantidad total por el porcentaje que quieres hallar y divide ese resultado entre 100.</p>
+                        <img src="images/porcentaje-formula.png" alt="Porcentaje" class="imagen-medidas" width="200" height="auto">
+                        <p><strong>Veamos un ejemplo:</strong></p>
+                        <p>¿Cuál es el 20% de 150?</p>
+                        <p>(150 × 20) ÷ 100 = 30</p>
+                        <p>Por lo tanto, el 20% de 150 es 30.</p>
+                        <h4>DESCUENTOS</h4>
+                        <p>Un descuento es una reducción del precio original de un producto o servicio, expresada como un porcentaje.</p>
+                        <p>¿Cómo hallar el descuento?</p>
+                        <p>Para hallar el descuento, realizamos un proceso muy similar al del procentaje pero con otros conceptos. Multiplicamos el <strong>precio original</strong> por el <strong>porcentaje de descuento</strong> y ese resultado lo dividimos entre 100. Ahora, si queremos hallar el precio final, debemor restar el precio original con el descuento.</p>
+                        <img src="images/descuento-formula-1.png" alt="Descuento-formula" class="imagen-medidas" width="200" height="auto">
+                        <p>Existe una manera directa de hallar este precio final, en donde debemos multiplicar el <strong>precio original</strong> por <strong>1 menos el porcentaje de descuento entre 100</strong>, tal y como se muestra en la imagen.</p>
+                        <img src="images/descuento-formula-2.png" alt="Descuento-formula" class="imagen-medidas" width="200" height="auto">
+                        <p><strong>Veamos un ejemplo:</strong></p>
+                        <p>Un producto cuesta $200 y tiene 25% de descuento. ¿Cuál es el precio final?</p>
+                        <p>(200 × 25) ÷ 100 = 50 → 200 - 50 = 150</p>
+                        <p>Por lo tanto, el descuento es de $50 y el precio final es de $150.</p>
+                        
+      </div>
+            
+<!-- ACTUALIZAR CON LA INFORMACIÓN DE ESTA SECCIÓN-->
+  <!-- 🧠 Sección de cuestionario -->
+  <div class="cuestionario">
+          <div class="Nivel-1">
+                <h2>Practicando</h2> <!--Change font-size-->
+                <h3>NIVEL 1</h3>
+                <div class="pregunta" data-correcta="c">
+                        <p>1. ¿Cuánto es el 30% de 90?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">18</button></li>
+                                <li><button class="opcion" data-value="b">25</button></li>
+                                <li><button class="opcion" data-value="c">27</button></li>
+                                <li><button class="opcion" data-value="d">30</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="b">
+                        <p>2. ¿Qué porcentaje de 100 es 60?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">50%</button></li>
+                                <li><button class="opcion" data-value="b">60%</button></li>
+                                <li><button class="opcion" data-value="c">70%</button></li>
+                                <li><button class="opcion" data-value="d">80%</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="b">
+                        <p>3. ¿Cuánto es el 15% de 200?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">25</button></li>
+                                <li><button class="opcion" data-value="b">30</button></li>
+                                <li><button class="opcion" data-value="c">35</button></li>
+                                <li><button class="opcion" data-value="d">40</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+          </div>
+          <div class="Nivel-2">
+                  <h3>NIVEL 2</h3>
+                  <div class="pregunta" data-correcta="a">
+                          <p>4. Un pantalón cuesta $500 y tiene 10% de descuento. ¿Cuál es el precio final?</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">$450</button></li>
+                                  <li><button class="opcion" data-value="b">$470</button></li>
+                                  <li><button class="opcion" data-value="c">$400</button></li>
+                                  <li><button class="opcion" data-value="d">$480</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="b">
+                          <p>5. Un videojuego cuesta $1200 y tiene 35% de descuento. ¿Cuánto pagarás?</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">$900</button></li>
+                                  <li><button class="opcion" data-value="b">$780</button></li>
+                                  <li><button class="opcion" data-value="c">$840</button></li>
+                                  <li><button class="opcion" data-value="d">$950</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="c">
+                          <p>6. ¿Qué porcentaje de 250 es 50?</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">10%</button></li>
+                                  <li><button class="opcion" data-value="b">15%</button></li>
+                                  <li><button class="opcion" data-value="c">20%</button></li>
+                                  <li><button class="opcion" data-value="d">25%</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="a">
+                            <p>7. Una mochila cuesta $800 y tiene un 15% de descuento. ¿Cuánto pagarás?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">$680</button></li>
+                                    <li><button class="opcion" data-value="b">$720</button></li>
+                                    <li><button class="opcion" data-value="c">$750</button></li>
+                                    <li><button class="opcion" data-value="d">$700</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+            </div>
+          <div class="Nivel-3">
+                    <h3>NIVEL 3</h3>
+                    <div class="pregunta" data-correcta="c">
+                            <p>8. Si el 40% de los 300 alumnos tienen bicicleta, ¿cuántos alumnos tienen bicicleta?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">100</button></li>
+                                    <li><button class="opcion" data-value="b">110</button></li>
+                                    <li><button class="opcion" data-value="c">120</button></li>
+                                    <li><button class="opcion" data-value="d">140</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="a">
+                            <p>9. Un celular cuesta $7200 y tiene un 18% de descuento. ¿Cuál es su precio final?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">$5,904</button></li>
+                                    <li><button class="opcion" data-value="b">$6,504</button></li>
+                                    <li><button class="opcion" data-value="c">$6,804</button></li>
+                                    <li><button class="opcion" data-value="d">$5,900</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="c">
+                            <p>10. En una tienda, te hacen un 30% de descuento y luego un 10% adicional sobre el nuevo precio. Si el producto costaba $1,000, ¿cuánto pagas al final?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">$650</button></li>
+                                    <li><button class="opcion" data-value="b">$700</button></li>
+                                    <li><button class="opcion" data-value="c">$630</button></li>
+                                    <li><button class="opcion" data-value="d">$670</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="c">
+                              <p>11. ¿Qué porcentaje representa 63 de 315?</p>
+                              <ul>
+                                      <li><button class="opcion" data-value="a">15%</button></li>
+                                      <li><button class="opcion" data-value="b">18%</button></li>
+                                      <li><button class="opcion" data-value="c">20%</button></li>
+                                      <li><button class="opcion" data-value="d">25%</button></li>
+                              </ul>
+                              <p class="feedback"></p>
+                    </div>
+              </div>
+  </div>
+</section>
+
+
+
+        <!-- Footer -->
+        <footer>
+                <div class="footer-content">
+                        <div class="footer-section">
+                                <h3>CREA</h3>
+                                <p>Tu aprendizaje, nuestra pasión.</p>
+                                <ul>
+                                        <u><li><a href="https://creaorg.carrd.co/#">Conoce más</a></li>
+                                                </u>
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Cursos</h4>
+                                <ul>
+                                        <li><a href="matematicas.html">Matemáticas</a></li>
+                                    <!--    <li><a href="ingles.html">Inglés</a></li>  -->
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Recursos</h4>
+                                <ul>
+                                        <li><a href="desafios.html">Desafíos</a></li>
+                                        <li><a href="flashcards.html">Flashcards</a></li>
+                                        <li><a href="asistente.html">Asistente AI</a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="footer-bottom">
+                        <p>&copy; 2025 CREA. Todos los derechos reservados.</p>
+                </div>
+        </footer>
+
+
+                  <script src ="./main.js"></script>
+  <script src ="./matematicas.js"></script>
+          </body>
+  </html>

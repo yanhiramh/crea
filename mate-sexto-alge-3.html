@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="./assets/css/indexstyles.css">
+  <link rel="stylesheet" href="./assets/css/matematicas.css">
+        <title>CREA</title>
+</head>
+
+<body>
+
+        <header>
+                <div class="logo">
+                        <a href="index.html">
+                                <img src="./images/logo.png" alt="logo" width="50" height="50">
+                        </a>
+                </div>
+
+                <img id="hamburger-menu" class="hamburger-menu" src="./images/icon-menu.svg" alt="menu icon" width="25" height="25">
+                <nav id='navbar'>
+                        <div class="back"></div>
+                                <div class="front">
+                                        <div class="close-img-container">
+                                                <img id="close-btn" src="./images/icon-close-menu.svg" alt="close icon">
+                                        </div>
+                                <ul>
+                                        <li class="cursos-ul-container">
+                                                <button id="cursosbtn" class="submenu-btn">Cursos <img id="cursos-btn-arrow" src="./images/arrow-down.svg" alt="flecha abajo"></button>
+                                                <ul id="cursos-ul" class="cursos-ul">
+                                                        <li>
+                                                                <a href="matematicas.html">Matemáticas</a>
+                                                        </li>
+                                                      <!--  <li>
+                                                                <a href="ingles.html">Inglés</a>    
+                                                        </li>  -->
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <span class="submenu-btn">
+                                                                <a href="desafios.html">Desafíos</a>
+                                                </span>
+                                        </li>
+                                        <li class="herramientas-ul-container">
+                                                <button id="herramientasbtn" class="submenu-btn">Herramientas <img id="herramientas-btn-arrow" src="./images/arrow-down.svg" alt="arrow icon"></button>
+
+                                                <ul id="herramientas-ul" class="herramientas-ul">
+                                                        <li>
+                                                                <a href="flashcards.html">Flashcards</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="asistente.html">Asistente AI</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                </ul>
+                                </div>
+                </nav>
+        </header>
+
+                        <!-- Información del curso
+                                Curso: Matemática
+                                Grado: Sexto
+                                Área: Álgebra
+                                Tema: Relaciones Lineales   -->
+
+
+                                <section class="curso-section">
+                                        <h2 class="curso-sesion">Álgebra - Ecuaciones lineales</h2>
+                                        <h3 class="curso-nombre">Curso: Matemáticas</h3>
+                        <!-- CONTENIDO TEÓRICO -->
+                                        <div class="curso-contenido">
+                                                <h4>¿QUÉ ES UNA ECUACIÓN LINEAL?</h4>
+                                                <p>Una <strong>ecuación lineal</strong> es una <strong>igualdad</strong> que tiene una <strong>incógnita (x)</strong> y no incluye potencias, raíces ni fracciones complicadas. El objetivo es encontrar el valor de x que hace que la ecuación sea verdadera.</p>
+                                               <h4>¿Cómo se resuelve una ecuación lineal?</h4>
+                                                <h6>
+                                                        <li><strong>Despejar la incógnita:</strong> dejar a la 𝑥 en un lado de la ecuación.</li>
+                                                        <li><strong>Usar la propiedad de igualdad:</strong> se puede sumar, restar, multiplicar o dividir el mismo número en ambos lados sin cambiar el valor de la ecuación.</li>
+                                                        <li><strong>Operación contraria:</strong> usa la operación inversa a la que acompaña a la incógnita para eliminarla.</li>
+                                                </h6>
+                                                <h4>Ejemplo:</h4>
+                                                <p>𝑥 + 5 = 12</p>
+                                                <p>Resta 5 a ambos lados: 𝑥 + 5 <strong>- 5</strong> = 12 <strong>- 5</strong></p>
+                                                <p>𝑥 = 7</p>
+                                                <p>Podemos ver esto de manera gráfica igualmente:</p>
+                                                <img src="images/ecuaciones-1.png" alt="Ecuaciones" class="imagen-medidas" width="280" height="auto">
+                                                <img src="images/ecuaciones-2.png" alt="Ecuaciones" class="imagen-medidas" width="280" height="auto">
+                                                <img src="images/ecuaciones-3.png" alt="Ecuaciones" class="imagen-medidas" width="280" height="auto">
+                                                <h4>¿Por qué funciona?</h4>
+                                                <p>Si hacemos la misma operación en ambos lados, la “balanza” permanece <strong>equilibrada</strong> y la igualdad sigue siendo verdadera.</p>
+                                                <h6>
+                                                        <li>Para resolver ecuaciones lineales, deja a la <strong>variable</strong> sola usando la operación contraria.</li>
+                                                        <li>Aplica la <strong>misma operación en ambos lados</strong> para mantener la igualdad válida.</li>
+                                                        <li>La analogía de la balanza ayuda a entender que la ecuación sigue equilibrada.</li>
+                                                </h6>
+                                                
+      </div>
+            
+<!-- ACTUALIZAR CON LA INFORMACIÓN DE ESTA SECCIÓN-->
+  <!-- 🧠 Sección de cuestionario -->
+  <div class="cuestionario">
+          <div class="Nivel-1">
+                <h2>Practicando</h2> <!--Change font-size-->
+                <h3>NIVEL 1</h3>
+                <div class="pregunta" data-correcta="c">
+                        <p>1. Resuelve: x + 4 = 9</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">x = 3</button></li>
+                                <li><button class="opcion" data-value="b">x = 4</button></li>
+                                <li><button class="opcion" data-value="c">x = 5</button></li>
+                                <li><button class="opcion" data-value="d">x = 6</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="c">
+                        <p>2. Resuelve y verifica: x − 5 = 3</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">x = 6</button></li>
+                                <li><button class="opcion" data-value="b">x = 7</button></li>
+                                <li><button class="opcion" data-value="c">x = 8</button></li>
+                                <li><button class="opcion" data-value="d">x = 9</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="c">
+                        <p>3. Si 6 + x = 11, ¿cuánto vale x?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">x = 3</button></li>
+                                <li><button class="opcion" data-value="b">x = 4</button></li>
+                                <li><button class="opcion" data-value="c">x = 5</button></li>
+                                <li><button class="opcion" data-value="d">x = 6</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+          </div>
+          <div class="Nivel-2">
+                  <h3>NIVEL 2</h3>
+                  <div class="pregunta" data-correcta="c">
+                          <p>4. Resuelve: 12 − x = 7</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">x = 3</button></li>
+                                  <li><button class="opcion" data-value="b">x = 4</button></li>
+                                  <li><button class="opcion" data-value="c">x = 5</button></li>
+                                  <li><button class="opcion" data-value="d">x = 6</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="c">
+                          <p>5. Si x − 6 = 9, ¿cuál es el valor de x?</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">x = 13</button></li>
+                                  <li><button class="opcion" data-value="b">x = 14</button></li>
+                                  <li><button class="opcion" data-value="c">x = 15</button></li>
+                                  <li><button class="opcion" data-value="d">x = 16</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="a">
+                          <p>6. Enuncia el problema: "Si tienes 3 chocolates y te faltan x para tener 10, ¿cuál es la ecuación?"</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">3 + x = 10</button></li>
+                                  <li><button class="opcion" data-value="b">x - 3 = 10</button></li>
+                                  <li><button class="opcion" data-value="c">10 + x = 3</button></li>
+                                  <li><button class="opcion" data-value="d">x - 10 = 3</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="b">
+                            <p>7. Resuelve y verifica: x + 8 = 14</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">x = 4</button></li>
+                                    <li><button class="opcion" data-value="b">x = 6</button></li>
+                                    <li><button class="opcion" data-value="c">x = 8</button></li>
+                                    <li><button class="opcion" data-value="d">x = 10</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+            </div>
+          <div class="Nivel-3">
+                    <h3>NIVEL 3</h3>
+                    <div class="pregunta" data-correcta="c">
+                            <p>8. Si a un número le restas 7 y obtienes 2, ¿cuál es el número?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">x = 7</button></li>
+                                    <li><button class="opcion" data-value="b">x = 8</button></li>
+                                    <li><button class="opcion" data-value="c">x = 9</button></li>
+                                    <li><button class="opcion" data-value="d">x = 10</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="b">
+                            <p>9. Resuelve: 15 = x + 6</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">x = 8</button></li>
+                                    <li><button class="opcion" data-value="b">x = 9</button></li>
+                                    <li><button class="opcion" data-value="c">x = 10</button></li>
+                                    <li><button class="opcion" data-value="d">x = 11</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="d">
+                            <p>10. En una caja hay 13 lápices. Si quitas x y quedan 5, ¿cuántos quitaste?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">x = 5</button></li>
+                                    <li><button class="opcion" data-value="b">x = 6</button></li>
+                                    <li><button class="opcion" data-value="c">x = 7</button></li>
+                                    <li><button class="opcion" data-value="d">x = 8</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="a">
+                              <p>11. Encuentra el valor de x si: x + 1 = x + 6 − 5</p>
+                              <ul>
+                                      <li><button class="opcion" data-value="a">Cualquier valor</button></li>
+                                      <li><button class="opcion" data-value="b">x = 2</button></li>
+                                      <li><button class="opcion" data-value="c">Ningún valor</button></li>
+                                      <li><button class="opcion" data-value="d">x = 9</button></li>
+                              </ul>
+                              <p class="feedback"></p>
+                      </div>
+                  <div class="pregunta" data-correcta="a">
+                                <p>12. Juan tiene x pesos. Si le das 9 más, tendrá 15. ¿Cuánto tenía al principio?</p>
+                                <ul>
+                                        <li><button class="opcion" data-value="a">x = 6</button></li>
+                                        <li><button class="opcion" data-value="b">x = 5</button></li>
+                                        <li><button class="opcion" data-value="c">x = 4</button></li>
+                                        <li><button class="opcion" data-value="d">x = 3</button></li>
+                                </ul>
+                                <p class="feedback"></p>
+                        </div>
+              </div>
+  </div>
+</section>
+
+
+
+        <!-- Footer -->
+        <footer>
+                <div class="footer-content">
+                        <div class="footer-section">
+                                <h3>CREA</h3>
+                                <p>Tu aprendizaje, nuestra pasión.</p>
+                                <ul>
+                                        <u><li><a href="https://creaorg.carrd.co/#">Conoce más</a></li>
+                                                </u>
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Cursos</h4>
+                                <ul>
+                                        <li><a href="matematicas.html">Matemáticas</a></li>
+                                    <!--    <li><a href="ingles.html">Inglés</a></li>  -->
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Recursos</h4>
+                                <ul>
+                                        <li><a href="desafios.html">Desafíos</a></li>
+                                        <li><a href="flashcards.html">Flashcards</a></li>
+                                        <li><a href="asistente.html">Asistente AI</a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="footer-bottom">
+                        <p>&copy; 2025 CREA. Todos los derechos reservados.</p>
+                </div>
+        </footer>
+
+
+
+                  <script src ="./main.js"></script>
+  <script src ="./matematicas.js"></script>
+          </body>
+  </html>

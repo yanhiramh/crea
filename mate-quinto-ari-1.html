@@ -1,0 +1,296 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="./assets/css/indexstyles.css">
+  <link rel="stylesheet" href="./assets/css/matematicas.css">
+        <title>CREA</title>
+</head>
+
+<body>
+
+        <header>
+                <div class="logo">
+                        <a href="index.html">
+                                <img src="./images/logo.png" alt="logo" width="50" height="50">
+                        </a>
+                </div>
+
+                <img id="hamburger-menu" class="hamburger-menu" src="./images/icon-menu.svg" alt="menu icon" width="25" height="25">
+                <nav id='navbar'>
+                        <div class="back"></div>
+                                <div class="front">
+                                        <div class="close-img-container">
+                                                <img id="close-btn" src="./images/icon-close-menu.svg" alt="close icon">
+                                        </div>
+                                <ul>
+                                        <li class="cursos-ul-container">
+                                                <button id="cursosbtn" class="submenu-btn">Cursos <img id="cursos-btn-arrow" src="./images/arrow-down.svg" alt="flecha abajo"></button>
+                                                <ul id="cursos-ul" class="cursos-ul">
+                                                        <li>
+                                                                <a href="matematicas.html">Matemáticas</a>
+                                                        </li>
+                                                      <!--  <li>
+                                                                <a href="ingles.html">Inglés</a>    
+                                                        </li>  -->
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <span class="submenu-btn">
+                                                                <a href="desafios.html">Desafíos</a>
+                                                </span>
+                                        </li>
+                                        <li class="herramientas-ul-container">
+                                                <button id="herramientasbtn" class="submenu-btn">Herramientas <img id="herramientas-btn-arrow" src="./images/arrow-down.svg" alt="arrow icon"></button>
+
+                                                <ul id="herramientas-ul" class="herramientas-ul">
+                                                        <li>
+                                                                <a href="flashcards.html">Flashcards</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="asistente.html">Asistente AI</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                </ul>
+                                </div>
+                </nav>
+        </header>
+
+  
+  <!-- 🧩 CONTENIDO -->
+
+<!-- Información del curso
+        Curso: Matemática
+        Grado: Quinto
+        Área: Aritmética
+        Tema: Números grandes y sistema decimal  -->
+
+        
+    <section class="curso-section">
+      <h2 class="curso-sesion">Aritmética - Números grandes y sistema decimal</h2>
+      <h3 class="curso-nombre">Curso: Matemáticas</h3>
+
+<!-- CONTENIDO TEÓRICO -->
+            
+      <div class="curso-contenido">
+              <h4>NÚMEROS GRANDES Y SISTEMA DECIMAL</h4>
+              <p> Observa estos dos números, ¿con cuál crees que es más sencillo hacer operaciones?
+              </p>
+              <img src="images/aritmetica-redondeo-estimacion.png" alt="Números" class="imagen-medidas" width="200" height="auto">
+              <p>Probablemente elegiste 10, y para hacer operaciones más rápida y sencillamente nos puede ser útil el redondeo. 
+              </p>
+              <p><strong>Redondear</strong> significa cambiar un número por otro cercano, para hacerlo más fácil de usar. </p>
+              <p>Lo usamos cuando no necesitamos la cantidad exacta, sino solo una aproximación.</p>
+              <p><strong>¿Cómo hacerlo?</strong></p>
+              <p>1.Mira el dígito que está justo a la derecha del lugar que quieres redondear. Puede estar antes o después de la coma decimal, según el tipo de redondeo: </p>
+              <h6>
+                      <p>Parte entera</p>
+                      <li>A la decena más cercana: Mira el número de las unidades.</li>
+                      <li>la centena más cercana: Mira el número de las decenas.</li>
+                      <li>A la unidad más cercana: Mira el número de las décimas.</li>
+              </h6>
+              <h6>
+                      <p>Parte decimal</p>
+                      <li>A la décima más cercana: miras el número de las centésimas.</li>
+                      <li>A la centésima más cercana: miras el número de las milésimas.</li>
+                    </h6>
+              <img src="images/numero-representacion.png" alt="Números" class="imagen-medidas" width="200" height="auto">
+              <p>2. Ahora, sigue estas dos reglas muy sencillas: </p>
+              <h6>
+                      <li>Si ese dígito es 5, 6, 7, 8 o 9, suma 1 al número que estás redondeando.</li>
+                      <li>Si ese dígito es 0, 1, 2, 3 o 4, deja el número igual y cambia los dígitos de la derecha por 0 (en los enteros) o elimínalos (en los decimales).</li>
+              </h6>
+              <h4>Ejemplos:</h4>
+              <p>Redondear 47 a la decena más cercana.</p>
+              <h6>
+                      <li>Mira el número de las unidades, es decir, el 7 (porque está a la derecha de las decenas, que es a donde queremos redondear)</li>
+                      <li>Como 7 es mayor que 5, el número de las decenas aumenta 1. </li>
+                      <li>Resultado: 50 </li>
+              </h6>
+              <p> Redondear 5.68 a la unidad más cercana. </p>
+              <h6>
+                      <li>Mira el número de las décimas, es decir, el 6 (porque es el número que está después de la unidad que es el 5) </li>
+                      <li>Como el 6 es mayor que 5, el número de las unidades aumenta 1.</li>
+                      <li>Resultado: 6</li>
+              </h6>
+              <p>Redondear 9.786 a la centésima más cercana.</p>
+              <h6>
+                      <li>Mira el número de las milésimas, es decir, el 6.</li>
+                      <li>Como el 6 es mayor que 5, el número de las centésimas aumenta 1. </li>
+                      <li>Resultado: 9.79</li>
+              </h6>
+              <p>Piénsalo así, para redondear un número hasta cierta posición, observamos el número justo a la derecha y como un semáforo, decide si "avanzamos" o no.</p>
+              <img src="images/semaforo-representacion.png" alt="Redondeo-representacion" class="imagen-medidas" width="200" height="auto"><br>
+              <h4>VALOR POSICIONAL</h4>
+              <p>Este tema es bastante sencillo. El valor posicional significa que cada cifra en un número tiene un valor diferente dependiendo del lugar donde está. Ya habíamos visto un poco de esto en el tema de números grandes y sistema decimal.</p>
+              <p>Por ejemplo, el número 4,382 está formado por estas cifras: </p>
+              <img src="images/valor-posicional.png" alt="valor-posicional-tabla" class="imagen-medidas" width="200" height="auto">
+              <p>Aunque el número 4 siempre vale cuatro, si está en los miles vale cuatro mil. El 8 en las decenas vale ochenta, no solo ocho. </p>
+              <h4>¿Para qué sirve?</h4>
+              <p>Para leer bien los números grandes y también para entender cómo se forman.</p>
+              <h4>NOTACIÓN DESARROLLADA</h4>
+              <h4>¿Qué es?</h4>
+              <p>La notación desarrollada es una forma de escribir un número “desarmado”, mostrando cuánto vale cada cifra según el lugar que ocupa.
+              </p>
+              <p>Cada número tiene un valor diferente dependiendo de su posición: unidades, decenas, centenas, etc.</p>
+              <h4>Ejemplo:</h4>
+              <p>El número 5,216 en notación desarrollada se escribe así: 5,000 + 200 + 10 + 6 </p>
+              <p>Esto nos muestra el valor de cada cifra: </p>
+              <h6>
+                      <li>El 5 vale 5,000</li>
+                      <li>El 2 vale 200</li>
+                      <li>El 1 vale 10</li>
+                      <li>El 6 vale 6</li>
+              </h6>
+              
+              
+
+              
+      </div>
+            
+<!-- ACTUALIZAR CON LA INFORMACIÓN DE ESTA SECCIÓN-->
+  <!-- 🧠 Sección de cuestionario -->
+  <div class="cuestionario">
+          <div class="Nivel-1">
+                <h2>Practicando</h2> <!--Change font-size-->
+                <h3>NIVEL 1</h3>
+                <div class="pregunta" data-correcta="b">
+                        <p>1. ¿Qué significa redondear un número?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">Cambiar un número por otro igual</button></li>
+                                <li><button class="opcion" data-value="b">Cambiar un número por otro cercano para hacerlo más fácil de usar</button></li>
+                                <li><button class="opcion" data-value="c">Sumar 10 al número original</button></li>
+                                <li><button class="opcion" data-value="d">Quitar todos los ceros del número</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="d">
+                        <p>2. Si redondeamos 47 a la decena más cercana, ¿cuál es el resultado?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">40</button></li>
+                                <li><button class="opcion" data-value="b">47</button></li>
+                                <li><button class="opcion" data-value="c">60</button></li>
+                                <li><button class="opcion" data-value="d">50</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="c">
+                        <p>3. En el número 4,382, ¿qué valor tiene el 3?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">3</button></li>
+                                <li><button class="opcion" data-value="b">30</button></li>
+                                <li><button class="opcion" data-value="c">300</button></li>
+                                <li><button class="opcion" data-value="d">3000</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+          </div>
+          <div class="Nivel-2">
+                  <h3>NIVEL 2</h3>
+                  <div class="pregunta" data-correcta="d">
+                          <p>4. Para redondear un número a la centena más cercana, ¿qué dígito debes observar?</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">El de las unidades</button></li>
+                                  <li><button class="opcion" data-value="b">El de los millares</button></li>
+                                  <li><button class="opcion" data-value="c">El de las centenas</button></li>
+                                  <li><button class="opcion" data-value="d">El de las decenas</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="c">
+                          <p>5. Si redondeas 5.68 a la unidad más cercana, el resultado es:</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">5.6</button></li>
+                                  <li><button class="opcion" data-value="b">5.7</button></li>
+                                  <li><button class="opcion" data-value="c">6</button></li>
+                                  <li><button class="opcion" data-value="d">5</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="b">
+                          <p>6. En el número 9.786, si lo redondeas a la centésima más cercana, el resultado será:</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">9.78</button></li>
+                                  <li><button class="opcion" data-value="b">9.79</button></li>
+                                  <li><button class="opcion" data-value="c">9.80</button></li>
+                                  <li><button class="opcion" data-value="d">9.70</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+            </div>
+          <div class="Nivel-3">
+                    <h3>NIVEL 3</h3>
+                    <div class="pregunta" data-correcta="a">
+                            <p>7. En el número 5,216, ¿cómo se representa en notación desarrollada?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">5,000 + 200 + 10 + 6</button></li>
+                                    <li><button class="opcion" data-value="b">5 + 2 + 1 + 6</button></li>
+                                    <li><button class="opcion" data-value="c">500 + 20 + 10 + 6</button></li>
+                                    <li><button class="opcion" data-value="d">5,000 + 2,000 + 100 + 60</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="d">
+                            <p>8. En el número 8,405, ¿cuál es el valor posicional del 8?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">8</button></li>
+                                    <li><button class="opcion" data-value="b">80</button></li>
+                                    <li><button class="opcion" data-value="c">800</button></li>
+                                    <li><button class="opcion" data-value="d">8000</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="b">
+                            <p>9. Si el número que está a la derecha del que vas a redondear es 4, ¿qué debes hacer?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">Aumentar 1 al número que redondeas</button></li>
+                                    <li><button class="opcion" data-value="b">Dejarlo igual</button></li>
+                                    <li><button class="opcion" data-value="c">Restarle 1</button></li>
+                                    <li><button class="opcion" data-value="d">Multiplicarlo por 10</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+              </div>
+  </div>
+</section>
+
+        <!-- Footer -->
+        <footer>
+                <div class="footer-content">
+                        <div class="footer-section">
+                                <h3>CREA</h3>
+                                <p>Tu aprendizaje, nuestra pasión.</p>
+                                <ul>
+                                        <u><li><a href="https://creaorg.carrd.co/#">Conoce más</a></li>
+                                                </u>
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Cursos</h4>
+                                <ul>
+                                        <li><a href="matematicas.html">Matemáticas</a></li>
+                                    <!--    <li><a href="ingles.html">Inglés</a></li>  -->
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Recursos</h4>
+                                <ul>
+                                        <li><a href="desafios.html">Desafíos</a></li>
+                                        <li><a href="flashcards.html">Flashcards</a></li>
+                                        <li><a href="asistente.html">Asistente AI</a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="footer-bottom">
+                        <p>&copy; 2025 CREA. Todos los derechos reservados.</p>
+                </div>
+        </footer>
+
+
+
+                  <script src ="./main.js"></script>
+  <script src ="./matematicas.js"></script>
+          </body>
+  </html>

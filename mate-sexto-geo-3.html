@@ -1,0 +1,317 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="./assets/css/indexstyles.css">
+  <link rel="stylesheet" href="./assets/css/matematicas.css">
+        <title>CREA</title>
+</head>
+
+<body>
+
+        <header>
+                <div class="logo">
+                        <a href="index.html">
+                                <img src="./images/logo.png" alt="logo" width="50" height="50">
+                        </a>
+                </div>
+
+                <img id="hamburger-menu" class="hamburger-menu" src="./images/icon-menu.svg" alt="menu icon" width="25" height="25">
+                <nav id='navbar'>
+                        <div class="back"></div>
+                                <div class="front">
+                                        <div class="close-img-container">
+                                                <img id="close-btn" src="./images/icon-close-menu.svg" alt="close icon">
+                                        </div>
+                                <ul>
+                                        <li class="cursos-ul-container">
+                                                <button id="cursosbtn" class="submenu-btn">Cursos <img id="cursos-btn-arrow" src="./images/arrow-down.svg" alt="flecha abajo"></button>
+                                                <ul id="cursos-ul" class="cursos-ul">
+                                                        <li>
+                                                                <a href="matematicas.html">Matemáticas</a>
+                                                        </li>
+                                                      <!--  <li>
+                                                                <a href="ingles.html">Inglés</a>    
+                                                        </li>  -->
+                                                </ul>
+                                        </li>
+                                        <li>
+                                                <span class="submenu-btn">
+                                                                <a href="desafios.html">Desafíos</a>
+                                                </span>
+                                        </li>
+                                        <li class="herramientas-ul-container">
+                                                <button id="herramientasbtn" class="submenu-btn">Herramientas <img id="herramientas-btn-arrow" src="./images/arrow-down.svg" alt="arrow icon"></button>
+
+                                                <ul id="herramientas-ul" class="herramientas-ul">
+                                                        <li>
+                                                                <a href="flashcards.html">Flashcards</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="asistente.html">Asistente AI</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                </ul>
+                                </div>
+                </nav>
+        </header>
+
+
+  
+  <!-- 🧩 CONTENIDO -->
+
+        <!-- Información del curso
+        Curso: Matemática
+        Grado: Sexto
+        Área: Geometría
+        Tema: Ángulos y Rectas   -->
+
+
+        <section class="curso-section">
+                <h2 class="curso-sesion">Geometría - Ángulos y Rectas</h2>
+                <h3 class="curso-nombre">Curso: Matemáticas</h3>
+<!-- CONTENIDO TEÓRICO -->
+                <div class="curso-contenido">
+                        <h4>TIPOS DE RECTAS</h4>
+                        <p><u>Paralelas</u></p>
+                        <p>Son dos o más rectas que <strong>nunca</strong> se van a <strong>cruzar o cortar</strong>. Continuarán infinitamente pero sin encontrarse la una con la otra.</p>
+                        <img src="images/recta-paralela.png" alt="Rectas-paralelas" class="imagen-medidas" width="200" height="auto">
+                        <p><u>Secantes</u></p>
+                        <p>Dos o más rectas que <strong>intersecan o se cruzan</strong> en un solo punto, así como se ve en la figura.</p>
+                        <img src="images/recta-secante.png" alt="Rectas-secantes" class="imagen-medidas" width="200" height="auto">
+                        <p><u>Perpendiculares</u></p>
+                        <p>Son rectas que <strong>intersecan o se cruzan</strong> en un punto pero, en este caso, formando un <strong>ángulo recto</strong> en el punto donde se cruzan, así como se ve en la figura.</p>
+                        <img src="images/recta-perpendicular.png" alt="Rectas-perpendiculares" class="imagen-medidas" width="200" height="auto">
+                        <h4>TIPOS DE ÁNGULOS</h4>
+                        <p><u>Llano</u></p>
+                        <p>Es un ángulo que mide <strong>exactamente 180°</strong>. Se forman cuando hay una recta entera, aunque es importante recalcar que es la medida completa en toda línea recta. Para que te des una idea mejor, observa la siguiente imagen.</p>
+                        <img src="images/angulo-llano.png" alt="Angulo-llano" class="imagen-medidas" width="200" height="auto">
+                        <p><u>Cóncavos</u></p>
+                        <p>No son tan complejos, solamente miden <strong>más de 180°</strong>, pero no llegan a dar una vuelta completa.</p>
+                        <img src="images/angulo-concavo.png" alt="Angulo-concavo" class="imagen-medidas" width="200" height="auto">
+                        <p><u>Completo</u></p>
+                        <p>Ángulos que miden <strong>exactamente 360°</strong>.</p>
+                        <img src="images/angulo-completo.png" alt="Angulo-completo" class="imagen-medidas" width="200" height="auto">
+                        <p><u>Complementarios</u></p>
+                        <p>Ángulos que sumados son <strong>iguales a 90°</strong>. Usando el ejemplo de la imagen, el ángulo complementario de 31° es 51°, es tan sencillo como restar 90° menos el ángulo que conoces para saber el complementario.</p>
+                        <img src="images/angulos-complementarios.png" alt="Angulos-complementarios" class="imagen-medidas" width="200" height="auto">
+                        <p><u>Suplementarios</u></p>
+                        <p>Ángulos que sumados son <strong>iguales a 180°</strong>. Usando el ejemplo de la imagen, el ángulo complementario de 65° es 115°, es tan sencillo como restar 90° menos el ángulo que conoces para saber el complementario.</p>
+                        <img src="images/angulos-suplementarios.png" alt="Angulos-suplementarios" class="imagen-medidas" width="200" height="auto">
+                        <h4>PROPIEDADES DE ÁNGULOS Y RECTAS</h4>
+                        <h4>Propiedad de la Z</h4>
+                        <p>Al tener dos rectas paralelas como “m” y “n” y poner una recta o segmento como “t” que interseca a las dos rectas paralelas, se genera una propiedad que muchos conocen como "Z" debido a la forma que tiene y se forman 8 ángulos que se relacionan de distintas maneras.</p>
+                        <img src="images/la-z.png" alt="La-z" class="imagen-medidas" width="200" height="auto">
+                        <p><u>Ángulos opuestos por el vértice</u></p>
+                        <p>Los ángulos que son opuestos por vértice son como un espejo, es decir, se reflejan y son <strong>iguales</strong>. En este caso, los ángulos 8 y 6 o 4 y 2 son iguales.</p>
+                        <img src="images/angulos-opuestos.png" alt="Angulos-opuestos" class="imagen-medidas" width="200" height="auto">
+                        <p><u>Ángulos alternos internos</u></p>
+                        <p>Los ángulos alternos internos son los ángulos que se encuentran en lados opuestos de una recta transversal y en el interior de dos rectas paralelas.</p>
+                        <img src="images/alternos-internos-1.png" alt="Altenos-externos" class="imagen-medidas" width="200" height="auto">
+                        <img src="images/alternos-internos-2.png" alt="Altenos-externos" class="imagen-medidas" width="200" height="auto">
+                        <p><u>Ángulos alternos externos</u></p>
+                        <p>Los ángulos alternos externos son los son pares de ángulos que se encuentran en lados opuestos de una línea secante y fuera de las dos rectas paralelas.</p>
+                        <img src="images/alternos-externos-1.png" alt="Altenos-internos" class="imagen-medidas" width="200" height="auto">
+                        <p><u>Ángulos correspondientes</u></p>
+                        <p>Los ángulos alternos externos son los son pares de ángulos que se encuentran en lados opuestos de una línea secante y fuera de las dos rectas paralelas.</p>
+                        <img src="images/angulos-correspondientes-1.png" alt="Correspondientes" class="imagen-medidas" width="200" height="auto">
+                        <img src="images/angulos-correspondientes-2.png" alt="Correspondientes" class="imagen-medidas" width="200" height="auto">
+                        <h4>Propiedad del pico</h4>
+                        <img src="images/propiedad-pico.png" alt="Propiedad-pico" class="imagen-medidas" width="200" height="auto">
+                        <p>Cuando dos rectas secantes cortan a dos rectas paralelas, se forma una figura con un vértice en forma de “pico”. En este caso, el ángulo agudo del vértice (el del pico) es igual a la suma de los dos ángulos agudos que se forman del otro lado, entre las rectas paralelas. La siguiente imagen es un ejemplo de como se aplica la propiedad.</p>
+                        <img src="images/propiedad-pico-ejemplo.png" alt="Propiedad-pico-ejemplo" class="imagen-medidas" width="200" height="auto">
+                        <h4>Propiedad de los picos</h4>
+                        <img src="images/propiedad-picos.png" alt="Propiedad-pico" class="imagen-medidas" width="200" height="auto">
+                        <p>Esta propiedad es similar a la anterior. Aquí hay <strong>varias secantes</strong> que hacen una forma de “zigzag”, pero no es necesario asustarse. Para aplicar esta propiedad, hay que sumar los ángulos agudos que miran para el mismo lado y el resultado debe ser el mismo que la sumatoria de los ángulos que miran para el lado contrario.</p>
+                        <img src="images/propiedad-picos-ejemplo.png" alt="Propiedad-picos" class="imagen-medidas" width="200" height="auto">
+                        <p>En este ejemplo, todas las “x” miran al mismo lado, así que igualamos "3x" con 40 + 10 + 40. Esto nos da que "3x" es igual a 90, por lo que "x" es igual a 30.</p>
+                        <img src="images/propiedad-picos-desarrollo.png" alt="Propiedad-picos" class="imagen-medidas" width="200" height="auto">
+
+                        
+      </div>
+            
+<!-- ACTUALIZAR CON LA INFORMACIÓN DE ESTA SECCIÓN-->
+  <!-- 🧠 Sección de cuestionario -->
+  <div class="cuestionario">
+          <div class="Nivel-1">
+                <h2>Practicando</h2> <!--Change font-size-->
+                <h3>NIVEL 1</h3>
+                <div class="pregunta" data-correcta="a">
+                        <p>1. ¿Cuáles de las siguientes rectas son paralelas?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">Dos rectas que nunca se cruzan</button></li>
+                                <li><button class="opcion" data-value="b">Dos rectas que se cruzan en un punto</button></li>
+                                <li><button class="opcion" data-value="c">Dos rectas que forman un ángulo recto</button></li>
+                                <li><button class="opcion" data-value="d">Dos segmentos de distinta longitud</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="a">
+                        <p>2. Si un ángulo mide 35°, ¿cuánto mide su complementario?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">55°</button></li>
+                                <li><button class="opcion" data-value="b">65°</button></li>
+                                <li><button class="opcion" data-value="c">145°</button></li>
+                                <li><button class="opcion" data-value="d">125°</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+                <div class="pregunta" data-correcta="b">
+                        <p>3. Un ángulo mide 110°. ¿Cuál es su ángulo suplementario?</p>
+                        <ul>
+                                <li><button class="opcion" data-value="a">60°</button></li>
+                                <li><button class="opcion" data-value="b">70°</button></li>
+                                <li><button class="opcion" data-value="c">80°</button></li>
+                                <li><button class="opcion" data-value="d">90°</button></li>
+                        </ul>
+                        <p class="feedback"></p>
+                </div>
+          </div>
+          <div class="Nivel-2">
+                  <h3>NIVEL 2</h3>
+                  <div class="pregunta" data-correcta="c">
+                          <p>4. Si dos rectas secantes forman un ángulo de 72°, ¿cuánto mide su ángulo opuestos por el vértice?</p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">18°</button></li>
+                                  <li><button class="opcion" data-value="b">108°</button></li>
+                                  <li><button class="opcion" data-value="c">72°</button></li>
+                                  <li><button class="opcion" data-value="d">144°</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="a">
+                          <p>5. Si dos rectas paralelas son cortadas por una transversal y un ángulo interno mide 68°, ¿cuánto mide su alterno interno?</p>
+                          <p><img src="images/sexto-geo-1-ej.png" class="imagen-medidas" width="200" height="auto"></p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">68°</button></li>
+                                  <li><button class="opcion" data-value="b">112°</button></li>
+                                  <li><button class="opcion" data-value="c">90°</button></li>
+                                  <li><button class="opcion" data-value="d">45°</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="d">
+                          <p>6. Una transversal corta dos paralelas y forma un ángulo de 120°. ¿Cuánto mide su ángulo correspondiente?</p>
+                          <p><img src="images/sexto-geo-1-ej2.png" class="imagen-medidas" width="200" height="auto"></p>
+                          <ul>
+                                  <li><button class="opcion" data-value="a">60°</button></li>
+                                  <li><button class="opcion" data-value="b">45°</button></li>
+                                  <li><button class="opcion" data-value="c">90°</button></li>
+                                  <li><button class="opcion" data-value="d">120°</button></li>
+                          </ul>
+                          <p class="feedback"></p>
+                  </div>
+                  <div class="pregunta" data-correcta="b">
+                            <p>7. Si un ángulo mide x y su adyacente mide (2x – 30), ¿cuánto vale x sabiendo que son suplementarios?</p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">40°</button></li>
+                                    <li><button class="opcion" data-value="b">70°</button></li>
+                                    <li><button class="opcion" data-value="c">60°</button></li>
+                                    <li><button class="opcion" data-value="d">90°</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+            </div>
+          <div class="Nivel-3">
+                    <h3>NIVEL 3</h3>
+                    <div class="pregunta" data-correcta="b">
+                            <p>8. Dos rectas paralelas son cortadas por una transversal. Si un ángulo externo mide 75°, ¿cuánto mide su ángulo alterno externo?</p>
+                            <p><img src="images/sexto-geo-1-ej3.png" class="imagen-medidas" width="200" height="auto"></p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">105°</button></li>
+                                    <li><button class="opcion" data-value="b">75°</button></li>
+                                    <li><button class="opcion" data-value="c">45°</button></li>
+                                    <li><button class="opcion" data-value="d">90°</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="b">
+                            <p>9. En la siguiente imágen las dos rectas son paralelas, cuánto vale el ángulo de color rojo?</p>
+                            <p><img src="images/sexto-geo-1-ej4.png" class="imagen-medidas" width="200" height="auto"></p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">80°</button></li>
+                                    <li><button class="opcion" data-value="b">90°</button></li>
+                                    <li><button class="opcion" data-value="c">100°</button></li>
+                                    <li><button class="opcion" data-value="d">70°</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="c">
+                            <p>10. En un sistema de varias secantes, tres ángulos que miran al mismo lado miden 40°, 60° y 50°. ¿Cuál debe ser el valor de la suma de los ángulos de color rojo?</p>
+                            <p><img src="images/sexto-geo-1-ej5.png" class="imagen-medidas" width="200" height="auto"></p>
+                            <ul>
+                                    <li><button class="opcion" data-value="a">140°</button></li>
+                                    <li><button class="opcion" data-value="b">170°</button></li>
+                                    <li><button class="opcion" data-value="c">150°</button></li>
+                                    <li><button class="opcion" data-value="d">180°</button></li>
+                            </ul>
+                            <p class="feedback"></p>
+                    </div>
+                    <div class="pregunta" data-correcta="a">
+                              <p>11. En la figura (dos paralelas cortadas por una transversal), un ángulo mide 65°. Calcula su alterno interno, Su correspondiente y su opuesto por el vértice.</p>
+                            <p><img src="images/sexto-geo-1-ej6.png" class="imagen-medidas" width="200" height="auto"></p>
+                              <ul>
+                                      <li><button class="opcion" data-value="a">65°, 65°, 65°</button></li>
+                                      <li><button class="opcion" data-value="b">65°, 115°, 65°</button></li>
+                                      <li><button class="opcion" data-value="c">115°, 65°, 65°</button></li>
+                                      <li><button class="opcion" data-value="d">65°, 65°, 115°</button></li>
+                              </ul>
+                              <p class="feedback"></p>
+                      </div>
+                  <div class="pregunta" data-correcta="d">
+                          <p>12. En la figura, dos rectas paralelas son cortadas por una transversal. Uno de los ángulos alternos externos mide 120°. ¿Cuánto mide el otro ángulo alterno externo?</p>
+                          <p><img src="images/sexto-geo-1-ej7.png" class="imagen-medidas" width="200" height="auto"></p>
+                                <ul>
+                                        <li><button class="opcion" data-value="a">60°</button></li>
+                                        <li><button class="opcion" data-value="b">70°</button></li>
+                                        <li><button class="opcion" data-value="c">90°</button></li>
+                                        <li><button class="opcion" data-value="d">120°</button></li>
+                                </ul>
+                                <p class="feedback"></p>
+                        </div>
+              </div>
+  </div>
+</section>
+
+
+
+        <!-- Footer -->
+        <footer>
+                <div class="footer-content">
+                        <div class="footer-section">
+                                <h3>CREA</h3>
+                                <p>Tu aprendizaje, nuestra pasión.</p>
+                                <ul>
+                                        <u><li><a href="https://creaorg.carrd.co/#">Conoce más</a></li>
+                                                </u>
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Cursos</h4>
+                                <ul>
+                                        <li><a href="matematicas.html">Matemáticas</a></li>
+                                    <!--    <li><a href="ingles.html">Inglés</a></li>  -->
+                                </ul>
+                        </div>
+                        <div class="footer-section">
+                                <h4>Recursos</h4>
+                                <ul>
+                                        <li><a href="desafios.html">Desafíos</a></li>
+                                        <li><a href="flashcards.html">Flashcards</a></li>
+                                        <li><a href="asistente.html">Asistente AI</a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="footer-bottom">
+                        <p>&copy; 2025 CREA. Todos los derechos reservados.</p>
+                </div>
+        </footer>
+
+
+
+                  <script src ="./main.js"></script>
+  <script src ="./matematicas.js"></script>
+          </body>
+  </html>
