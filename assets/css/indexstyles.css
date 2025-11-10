@@ -35,10 +35,10 @@ a{
   color: var(--almostBlack);
 }
 
-body{
-  font-family: 'Poppins', sans-serif;
+body {
   background-color: var(--almostWhite);
   color: var(--black);
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
 }
 
