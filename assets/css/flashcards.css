@@ -9,6 +9,7 @@
 body {
   background-color: var(--almostWhite);
   color: var(--black);
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
 }
 
@@ -50,6 +51,7 @@ button {
 
 .add-flashcard-con button {
   font-size: 18px;
+  font-family: 'Poppins', sans-serif;
   background-color: var(--almostBlack);
   color: var(--almostWhite);
   padding: 15px 20px;
@@ -78,6 +80,7 @@ button {
   font-size: 28px;
   color: var(--almostBlack);
   font-weight: 600;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -96,6 +99,7 @@ button {
 
 #close-btn-flashcard {
   font-size: 1.2em;
+  font-family: 'Poppins', sans-serif;
   background-color: #ca4444;
   height: 1.8em;
   width: 1.8em;
@@ -206,6 +210,7 @@ label {
   background-color: transparent;
   padding: 0.5em;
   font-size: 18px;
+  font-family: 'Poppins', sans-serif;
   border: none;
   cursor: pointer;
 }
@@ -217,6 +222,7 @@ label {
 .delete {
   color: #ca4444;
   font-weight: bold;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
 }
 
@@ -235,6 +241,7 @@ label {
 @media screen and (max-width: 450px) {
   body {
     font-size: 14px;
+    font-family: 'Poppins', sans-serif;
   }
   .card-list-container {
     grid-template-columns: 1fr;
