@@ -236,6 +236,7 @@ main{
         display: none;
         padding: 18px 24px;
         font-size: 0.875em;
+        font-family: 'Poppins', sans-serif;
         & li{
           margin-bottom: 16px;
         }
@@ -258,15 +259,18 @@ main{
   main{
     & h2{
       font-size: 2.625em;
+      font-family: 'Poppins', sans-serif;
     }
     & p{
       width: 600px;
       font-size: 1.125em;
+      font-family: 'Poppins', sans-serif;
       margin: 40px auto;
       text-align: center;
     }
     & .start-btn{
       font-size: 1.125em;
+      font-family: 'Poppins', sans-serif;
       margin-bottom: 46px;
       align-content: center;
     }
@@ -295,12 +299,14 @@ main{
     & h2{
       text-align: left;
       font-size: 3.2em;
+      font-family: 'Poppins', sans-serif;
       margin: 100px 0 40px;
       width: 450px;
     }
     & p{
       text-align: left;
       font-size: 1.125em;
+      font-family: 'Poppins', sans-serif;
       width: 445px;
       font-weight: 500px;
       padding: 0;
